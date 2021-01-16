@@ -1,0 +1,83 @@
+-Hosting
+
+-ytdl
+
+-Make new bot (ImageBoss)
+
+-https://github.com/wafflecomposite/15.ai-Python-API
+
+-loop counter resetting
+
+-numBoss if calc error
+
+-(HIGH) log fastest typers on a leaderboard
+
+-blacklisting
+
+-wipe category
+
+-wipe reactions
+
+-bossbadi api
+
+-https://github.com/iDutchy/sr_api/blob/master/DOCUMENTATION.md
+
+-https://no-api-key.com/
+
+-https://gdbrowser.com/api
+
+-snipe also include image
+
+-lfind
+
+-fastest typer gets special role or smth
+
+-more typing games, different word lengths and salaries
+
+-use a better database?
+
+-another way to earn money like if botbadi said: guess a number 1 - 10 you got 10 sec
+
+-hm. maybe add 2 commands like bake or cook (idea) One with a cooldown of 5s and the other with 30s
+
+-add urban dictionary
+
+-fast forward and fast backward
+
+-add %roleinfo command
+
+-total members wrong
+
+-play upload song
+
+-SoundCloud, Spotify
+
+-add reaction roles
+
+-rich leaderboard is a bit slow
+
+-bug when moderator moves bot to another voice channel
+
+-auto delete server setting if removed from a server
+
+-replay song
+
+-(low priority) set prefix command?
+
+-add bug reports command
+
+-loop song
+
+-add lockdown channel command
+
+-bot auto leaves vc
+
+-ADD A QUEUE SYSTEM
+    So that music doesn't just stop if you do the %stop
+    But if multiple people are listening then queue system would be good
+    Orders songs, first play person1's song, then person2's song
+
+-(high priority) more settings:
+    on member join message toggle on/off
+
+-Different types of work? Typing is easy, but maybe math could be a job to do math problems with levels, (I.e.: Substitute, teacher, proffesser) with increasingly harder problems. Maybe add heists, but you have to defuse traps, prevent being caught, or so thing other than a dice roll.

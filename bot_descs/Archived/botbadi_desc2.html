@@ -1,0 +1,155 @@
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+</style>
+
+
+<p>Botbadi is a multipurpose Discord bot that features commands in moderation, music, images, gaming, math and so much more. Type <code>%help</code> for all the commands and you'll be glad you did.</p>
+
+<h2 style="color:#fe4a00">Moderation</h2>
+<p>Let's start by talking about the moderation commands. Although there are fewer commands than other moderation bots, the commands prove to be functioning and easy to use. The user parameter in many of these commands can be in the form of either a mention or the identification number (ID) of the user.</p>
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr><td><code>%set</code></td><td>Configure server settings</td></tr>
+  <tr><td><code>%slow {Num} [s/m/h]</code></td><td>Set slowmode - max 6 hrs</td></tr>
+  <tr><td><code>%dm {User} {Msg}</code></td><td>DM user through me</td></tr>
+  <tr><td><code>%del [0-100] [User]</code></td><td>Delete channel messages</td></tr>
+  <tr><td><code>%mute [User] [Reason]</code></td><td>Mute user/set up muted role</td></tr>
+  <tr><td><code>%unmute {User} [Reason]</code></td><td>Unmute user</td></tr>
+  <tr><td><code>%kick {User} [Reason]</code></td><td>Kick user</td></tr>
+  <tr><td><code>%ban {User} [Reason]</code></td><td>Ban user/hack ban user</td></tr>
+  <tr><td><code>%unban {User ID} [Reason]</code></td><td>Unban user</td></tr>
+</table>
+
+<h2 style="color:#fe4a00">Music</h2>
+<p>Next, we will discuss some of Botbadi's music commands. It can search and play songs directly from YouTube or you can pass in a direct URL to the audio source. Most of the classic music commands are here, but there may be bugs now and then.</p>
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr><td><code>%join</code></td><td>Join your voice channel</td></tr>
+  <tr><td><code>%play {Keywords}</code></td><td>Play from YouTube/URL</td></tr>
+  <tr><td><code>%search [Keywords]</code></td><td>Perform a YouTube search</td></tr>
+  <tr><td><code>%pause</code></td><td>Pause audio</td></tr>
+  <tr><td><code>%resume</code> or <code>%unpause</code></td><td>Resume audio</td></tr>
+  <tr><td><code>%stop</code></td><td>Stop audio</td></tr>
+  <tr><td><code>%vol [Num]</code></td><td>Change volume/show current volume</td></tr>
+  <tr><td><code>%np</code></td><td>Show the currently playing song</td></tr>
+  <tr><td><code>%leave</code></td><td>Disconnect from the voice channel</td></tr>
+  <tr><td><code>%pl</code></td><td>Show playlist</td></tr>
+  <tr><td><code>%pop {Num}</code></td><td>Remove song from playlist</td></tr>
+  <tr><td><code>%clear</code></td><td>Clear playlist</td></tr>
+  <tr><td><code>%debug</code></td><td>Attempt to debug the voice client</td></tr>
+  <tr><td><code>%plugin</code></td><td>More neat features in my music commands</td></tr>
+</table>
+
+<h2 style="color:#fe4a00">Images</h2>
+<p>Similar to other popular Discord bots, Botbadi can manipulate images in various ways. Surprise your friends by adding filters, mods, and special effects to their profile pictures.</p>
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr><td><code>%edge [User/URL]</code></td><td>Detect edges on images with a simple convolution filter</td></tr>
+  <tr><td><code>%emboss [User/URL]</code></td><td>Generate a 3D print relief effect</td></tr>
+  <tr><td><code>%kuwahara [User/URL]</code></td><td>Add smoothing to reduce noise but preserve edges</td></tr>
+  <tr><td><code>%carve [User/URL]</code></td><td>Carve the image on a gray surface</td></tr>
+  <tr><td><code>%spray [User/URL]</code></td><td>Give the image a spray-painted feel</td></tr>
+  <tr><td><code>%noise [User/URL]</code></td><td>Add bits of color over the image</td></tr>
+  <tr><td><code>%suck [User/URL]</code></td><td>Get sucked into a black hole at the center</td></tr>
+  <tr><td><code>%sepia [User/URL]</code></td><td>Give the image a brownish tone just like the early days</td></tr>
+  <tr><td><code>%sketch [User/URL]</code></td><td>Make it look like an artist sketched it</td></tr>
+  <tr><td><code>%burn [User/URL]</code></td><td>Burn the image like it just came out of the furnace</td></tr>
+  <tr><td><code>%swirl [User/URL]</code></td><td>Create a whirlpool effect by rotating the pixels</td></tr>
+  <tr><td><code>%ripple [User/URL]</code></td><td>Create a ripple or wave effect with the image</td></tr>
+
+  <tr><td><code>%png [Text]</code></td><td>Generate a PNG image with your text</td></tr>
+  <tr><td><code>%triggered [User]</code></td><td>Well someone is triggered (returns a GIF)</td></tr>
+  <tr><td><code>%jail [User]</code></td><td>They broke the law. They pay the consequences.</td></tr>
+  <tr><td><code>%rain [User]</code></td><td>It's raining, very sad times indeed...</td></tr>
+  <tr><td><code>%bright [User]</code></td><td>Discord light theme flashbacks...oww my eyes!</td></tr>
+  <tr><td><code>%dark [User]</code></td><td>Turn the brightness down real low</td></tr>
+  <tr><td><code>%invert [User]</code></td><td>Invert the colors of an image</td></tr>
+  <tr><td><code>%sharp [User]</code></td><td>Sharpen up an image making it more vivid</td></tr>
+  <tr><td><code>%updown [User]</code></td><td>Turn an image upside down, or 180 degrees</td></tr>
+  <tr><td><code>%blur [User]</code></td><td>Gaussian blur an image (basically blurring it)</td></tr>
+  <tr><td><code>%pixel [User]</code></td><td>Pixelate an image (like blurring but broader)</td></tr>
+  <tr><td><code>%gray [User]</code></td><td>Grayscale an image (I know, everyone's least favorite)</td></tr>
+</table>
+
+<h2 style="color:#fe4a00">Economy</h2>
+<p>Botbadi has a rather basic currency system, but many users find it addicting. Users can earn coins by completing tasks such as completing a typing challenge or solving a math problem and spend their earnings on cool items from the shop. This feature is still developing as more jobs and products are added.</p>
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr><td><code>%bal [User]</code></td><td>Balance (do first if a new user)</td></tr>
+  <tr><td><code>%inv [User]</code></td><td>Fetch someone's inventory</td></tr>
+  <tr><td><code>%rich</code></td><td>Show richest users in the server</td></tr>
+  <tr><td><code>%shop</code></td><td>Visit the shop to spend your coins</td></tr>
+  <tr><td><code>%bake</code></td><td>Bake something for 1-5 coins</td></tr>
+  <tr><td><code>%h.math</code></td><td>Any math game for 20 coins</td></tr>
+  <tr><td><code>%type</code> or <code>%work</code></td><td>20s typing game for 100 coins</td></tr>
+</table>
+
+<h2 style="color:#fe4a00">General</h2>
+<p>Here are some general commands for the bot. These are mostly fun commands which might be useful at times.</p>
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr><td><code>%hi</code></td><td>Hello! How are you on this fine day?</td></tr>
+  <tr><td><code>%bye</code></td><td>Goodbye, hope you have a nice day.</td></tr>
+  <tr><td><code>%weather {Location}</code></td><td>Get the weather</td></tr>
+  <tr><td><code>%translate {Text}</code></td><td>Translate text to English</td></tr>
+  <tr><td><code>%snipe</code></td><td>Last deleted msg in the channel</td></tr>
+  <tr><td><code>%editsnipe</code></td><td>Last edited msg in the channel</td></tr>
+  <tr><td><code>%hack [User]</code></td><td>Hack someone (definitely not real)</td></tr>
+  <tr><td><code>%emojify {Text}</code></td><td>Turn text into emojis</td></tr>
+  <tr><td><code>%embed {Text}</code></td><td>Generate an embed</td></tr>
+  <tr><td><code>%say {Text}</code></td><td>Instantly repeat your message</td></tr>
+  <tr><td><code>%change {Text}</code></td><td>Change server-wide message</td></tr>
+  <tr><td><code>%talk</code></td><td>Repeat saved server-wide message</td></tr>
+</table>
+
+<h2 style="color:#fe4a00">Random</h2>
+<p>Next are the random commands. Random images, insults, predictions, you name it.</p>
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr><td><code>%fact</code></td><td>Random interesting fact</td></tr>
+  <tr><td><code>%8ball</code></td><td>Magic 8-Ball</td></tr>
+  <tr><td><code>%flip</code> or <code>%coin</code></td><td>Flip a two-sided coin</td></tr>
+  <tr><td><code>%roll</code> or <code>%dice</code></td><td>Roll a six-sided die</td></tr>
+  <tr><td><code>%rand {Start} {End}</code></td><td>Random integer</td></tr>
+  <tr><td><code>%meme</code></td><td>Random meme</td></tr>
+  <tr><td><code>%pet</code></td><td>Random pet image</td></tr>
+  <tr><td><code>%flame</code></td><td>Insult your mom</td></tr>
+  <tr><td><code>%roast</code></td><td>Insult you</td></tr>
+  <tr><td><code>%insult</code></td><td>Random insult</td></tr>
+</table>
+
+<p>
+The built-in calculator feature comes in very handy when you can't find your normal calculator. Botbadi can compute arithmetic, trigonometry, logarithms, and some other stuff. It's a pretty smart calculator. Including the calculator feature, the bot can generate a graph given ordered pairs. Drop your graphing calculator and get the answers you need right here in your Discord server with the world's best Discord bot, Botbadi. This bot also comes with a few multiplayer games to get your Discord servers up and running with guessing games focused on Minecraft items and celebrities. It also comes equipped with memes, jokes, and interesting facts to keep you entertained. It is the all-around bot that will add a little bit of everything to its servers. There were numerous other fun commands and features that weren't described in detail here and it's up to you to discover them!<br><br>
+
+If you are experiencing any issues, <i>never</i> hesitate to contact the developer:<br>
+<b>Email:</b> <a href="mailto:bossbadi123@gmail.com">bossbadi123@gmail.com</a><br>
+<b>Discord:</b> <a href="https://discord.com/users/712323326575378562">bossbadi#3371</a><br>
+<b>Support server:</b> <a href="https://discord.gg/rzDqQqD" target="_blank">https://discord.gg/rzDqQqD</a>
+</p>
