@@ -97,16 +97,16 @@ Botbadi has a rather basic currency system, but many users find it addicting. Us
 ### General
 Here are some general commands for the bot. These are mostly fun commands which might be useful at times.
 
-`%hi` Hello! How are you on this fine day?
-`%bye` Goodbye, hope you have a nice day.
+`%hi`/`%bye` Hello, and goodbye
 `%weather <Location>` Get the weather
-
 `%translate <Text>` Translate text to English
+
 `%snipe` Last deleted msg in the channel
 `%editsnipe` Last edited msg in the channel
-
 `%hack [User]` Hack someone (definitely not real)
+
 `%emojify <Text>` Turn text into emojis
+`%emojiurl <Emojis>` Get URL of custom emoji
 `%embed <Text>` Generate an embed
 
 `%say <Text>` Instantly repeat your message

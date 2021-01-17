@@ -1,4 +1,9 @@
 1/16/2021
+v2.7.8:
+    -Fixed bug when running pagination cmds
+    -New owner command '%lfind' working
+    -Fixed some bugs when DMing the bot
+    -Get URL of custom emoji (%emojiurl)
 v2.7.7:
     -Improved server icon command (%icon)
     -Redesigned weather command (%weather)
