@@ -1,4 +1,7 @@
 1/16/2021
+v2.7.7:
+    -Improved server icon command (%icon)
+    -Redesigned weather command (%weather)
 v2.7.6:
     -Removed '%vid' command
     -Say goodbye to the confusing Gists
