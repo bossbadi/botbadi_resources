@@ -1,31 +1,109 @@
-<p>NumericBoss is a simple utility bot to have in your back pocket. It can do coin flips and dice rolls. But most importantly, it can calculate math problems. Simply pass an arithmetic expression into the calculator command and get your answer ASAP. It can do the basics like addition, subtraction, multiplication, division, but it also calculates exponentiation, roots, logarithms, trigonometry, and some statistics. Typing <code>=help</code> is all you need to get started.
-<br>
-<br>
-<b style="color:green">Here are the main commands:</b><br>
-<i>Randomness</i><br>
-<code>=flip</code> or <code>=coin</code> Flip a two-sided coin<br>
-<code>=roll</code> or <code>=dice</code> Roll a six-sided die<br>
-<code>=rand {Start} {End}</code> Generate a random integer<br>
-<br>
-<i>The calculator</i><br>
-<code>=c {Problem}</code> or <code>=calc {Problem}</code> Calculate a math problem (examples below)<br>
-<code><br>
-=c 100! 99! 98! 97! 96!<br>
-=c sin(cos(tan(asin(acos(atan(1))))))<br>
-=calc sqrt(i^123456789)<br>
-=calc abs(log(cbrt(-1)))<br>
-</code>
-<br>
-<i>The grapher</i><br>
-<code>=graph {Ordered pairs}</code> Graph some ordered-pairs (example below)<br>
-<code><br>
-=graph (0 ,2) , ( 3,4), (5, 12 )
-</code><br>
-<br>
-Note the braces <code>{}</code> are only placeholders and should not be typed.<br>
-<br>
+<style>
+body {
+    background: linear-gradient(180deg, rgba(0, 125, 71, 1) 0%, rgba(92, 97, 0, 1) 100%);
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translatey(-20px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+}
+
+.entity-header__image {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    img { width: 100%; height: auto; }
+}
+
+code {
+    color: lightyellow;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.img-shadow {
+    box-shadow: 0px 0px 5px #000000;
+}
+</style>
+
+<p>NumericBoss is a simple utility bot to have in your back pocket. It can do coin flips and dice rolls. But most importantly, it can calculate math problems. Simply pass an arithmetic expression into the calculator command and get your answer ASAP. It can do the basics like addition, subtraction, multiplication, division, but it also calculates exponentiation, roots, logarithms, trigonometry, and some statistics.
+<br><br>
+Typing <code>=help</code> is all you need to get started.</p>
+
+
+<h2 style="color: lightgreen">Randomness</h2>
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td><code>=flip</code> or <code>=coin</code></td>
+    <td>Flip a two-sided coin</td>
+    <td>¯\_(ツ)_/¯</td>
+  </tr>
+  <tr>
+    <td><code>=roll</code> or <code>=dice</code></td>
+    <td>Roll a six-sided die</td>
+    <td>¯\_(ツ)_/¯</td>
+  </tr>
+  <tr>
+    <td><code>=rand {Start} {End}</code></td>
+    <td>Generate a random integer</td>
+    <td><code>=rand 0 100</code></td>
+  </tr>
+</table>
+
+
+<h2 style="color: lightgreen">Math</h2>
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td><code>=c {Problem}</code> or <code>=calc {Problem}</code></td>
+    <td>Calculate a math problem (examples below)</td>
+    <td><code>=calc abs(log(cbrt(-1)))</code></td>
+  </tr>
+  <tr>
+    <td><code>=graph {Ordered pairs}</code></td>
+    <td>Graph some ordered-pairs</td>
+    <td><code>=graph (0 ,2) , ( 3,4), (5, 12 )</code></td>
+  </tr>
+</table>
+
+
+<p>
+Note the braces <code>{}</code> are only placeholders and should not be typed.
+<br><br>
 As always, if you are experiencing any issues, don't hesitate to contact the developer:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>Email:</b> <a href="mailto:andy@minnwater.com">andy@minnwater.com</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>Discord:</b> goop bro#0451<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>Support server:</b> <a href="https://discord.gg/rzDqQqD" target="_blank">https://discord.gg/rzDqQqD</a><br>
+<b>Email:</b> <a href="mailto:andy@minnwater.com">andy@minnwater.com</a><br>
+<b>Discord:</b> <a href="https://discord.com/users/755896753693261866" target="_blank">goop bro#0451</a><br>
+<b>Support server:</b> <a href="https://discord.gg/rzDqQqD" target="_blank">https://discord.gg/rzDqQqD</a><br>
 </p>
