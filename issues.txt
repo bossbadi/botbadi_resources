@@ -1,8 +1,14 @@
--Hosting
+-mention prefix bot param
 
--ytdl
+-skip show song
 
--Make new bot (ImageBoss)
+-mathjs
+
+-mc games 20s? larger images?
+
+-kuwahara slow, resize image
+
+-lfind
 
 -https://github.com/wafflecomposite/15.ai-Python-API
 
@@ -27,8 +33,6 @@
 -https://gdbrowser.com/api
 
 -snipe also include image
-
--lfind
 
 -fastest typer gets special role or smth
 
