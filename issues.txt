@@ -1,7 +1,3 @@
--mention prefix bot param
-
--skip show song
-
 -mathjs
 
 -mc games 20s? larger images?

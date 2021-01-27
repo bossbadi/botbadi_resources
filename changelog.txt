@@ -1,3 +1,9 @@
+1/26/2021
+v2.8.1:
+    -Fixed minor mention prefix bug
+    -Added auto mod link spamming (%set)
+    -Improved some moderation errors
+
 1/25/2021
 v2.8.0:
     -Fixed minor error in Minecraft checking alg.
