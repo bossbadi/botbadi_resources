@@ -1,0 +1,14 @@
+https://top.gg/bot/753718230333522131
+    use latest
+
+https://bots.discordlabs.org/bot/753718230333522131
+    use latest, image sizer css inline
+
+https://discord.bots.gg/bots/753718230333522131
+    use v3.01, image sizer class in style tag
+
+https://botsfordiscord.com/bot/753718230333522131
+    use v3.01, image sizer class in style tag
+
+https://discordextremelist.xyz/en-US/bots/753718230333522131
+    use v3, image sizer css inline
