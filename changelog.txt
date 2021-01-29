@@ -1,3 +1,10 @@
+1/29/2021
+v2.8.2:
+    -Improved calculator command (%calc)
+    -Fixed more possible chatbot bugs
+    -Loop counter resetting bug fixed
+    -Now supports playing file uploads
+
 1/26/2021
 v2.8.1:
     -Fixed minor mention prefix bug

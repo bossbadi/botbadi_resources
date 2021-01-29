@@ -4,7 +4,7 @@ Botbadi is a multipurpose Discord bot that features commands in moderation, musi
 Next, we will discuss some of Botbadi's music commands. It can search and play songs directly from YouTube or you can pass in a direct URL to the audio source. Most of the classic music commands are here, but there may be bugs now and then.
 
 `%join` Join your voice channel
-`%play <Keywords>` Play from YouTube/URL
+`%play [Keywords]` Play from YouTube/URL/file upload
 `%search [Keywords]` Perform a YouTube search
 
 `%pause` Pause audio
@@ -48,37 +48,37 @@ Let's start by talking about the moderation commands. Although there are fewer c
 ### Images
 Similar to other popular Discord bots, Botbadi can manipulate images in various ways. Surprise your friends by adding filters, mods, and special effects to their profile pictures.
 
-`%edge [User/URL]` Detect edges on images with a simple convolution filter
-`%emboss [User/URL]` Generate a 3D print relief effect
-`%kuwahara [User/URL]` Add smoothing to reduce noise but preserve edges
+`&suck [User/URL]` Get sucked into a black hole at the center
+`&swirl [User/URL]` Create a whirlpool effect by rotating the pixels
+`&ripple [User/URL]` Create a ripple or wave effect with the image
 
-`%carve [User/URL]` Carve the image on a gray surface
-`%spray [User/URL]` Give the image a spray-painted feel
-`%noise [User/URL]` Add bits of color over the image
+`&carve [User/URL]` Carve the image on a gray surface
+`&kuwahara [User/URL]` Add smoothing to reduce noise but preserve edges
+`&spray [User/URL]` Give the image a spray-painted feel
 
-`%suck [User/URL]` Get sucked into a black hole at the center
-`%sepia [User/URL]` Give the image a brownish tone just like the early days
-`%sketch [User/URL]` Make it look like an artist sketched it
+`&edge [User/URL]` Detect edges on images with a simple convolution filter
+`&burn [User/URL]` Burn the image like it just came out of the furnace
+`&emboss [User/URL]` Generate a 3D print relief effect
 
-`%burn [User/URL]` Burn the image like it just came out of the furnace
-`%swirl [User/URL]` Create a whirlpool effect by rotating the pixels
-`%ripple [User/URL]` Create a ripple or wave effect with the image
+`&sepia [User/URL]` Give the image a brownish tone just like the early days
+`&noise [User/URL]` Add bits of color over the image
+`&sketch [User/URL]` Make it look like an artist sketched it
 
-`%png [Text]` Generate a PNG image with your text
-`%triggered [User/URL]` Well someone is triggered (returns a GIF)
-`%jail [User/URL]` They broke the law. They pay the consequences.
+`&png [Text]` Generate a PNG image with your text
+`&triggered [User/URL]` Well someone is triggered (returns a GIF)
+`&sharp [User/URL]` Sharpen up an image making it more vivid
 
-`%rain [User/URL]` It's raining, very sad times indeed...
-`%bright [User/URL]` Discord light theme flashbacks...oww my eyes!
-`%dark [User/URL]` Turn the brightness down real low
+`&jail [User/URL]` They broke the law. They pay the consequences.
+`&rain [User/URL]` It's raining, very sad times indeed...
+`&bright [User/URL]` Discord light theme flashbacks...oww my eyes!
 
-`%invert [User/URL]` Invert the colors of an image
-`%sharp [User/URL]` Sharpen up an image making it more vivid
-`%updown [User/URL]` Turn an image upside down, or 180 degrees
+`&dark [User/URL]` Turn the brightness down real low
+`&invert [User/URL]` Invert the colors of an image
+`&updown [User/URL]` Turn an image upside down, or 180 degrees
 
-`%blur [User/URL]` Gaussian blur an image (basically blurring it)
-`%pixel [User/URL]` Pixelate an image (like blurring but broader)
-`%gray [User/URL]` Grayscale an image (I know, everyone's least favorite)
+`&blur [User/URL]` Gaussian blur an image (basically blurring it)
+`&pixel [User/URL]` Pixelate an image (like blurring but broader)
+`&gray [User/URL]` Grayscale an image (I know, everyone's least favorite)
 
 ### Economy
 Botbadi has a rather basic currency system, but many users find it addicting. Users can earn coins by completing tasks such as completing a typing challenge or solving a math problem and spend their earnings on cool items from the shop. This feature is still developing as more jobs and products are added.
@@ -158,5 +158,5 @@ This bot also comes with a few multiplayer games to get your Discord servers up 
 
 If you are experiencing any issues, never hesitate to contact the developer:
 Email: bossbadi123@gmail.com
-Discord: bossbadi#3371
+Discord: [bossbadi#3371](https://discord.com/users/712323326575378562)
 Support server: https://discord.gg/rzDqQqD
