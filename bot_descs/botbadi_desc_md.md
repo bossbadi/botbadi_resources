@@ -11,14 +11,15 @@ Next, we will discuss some of Botbadi's music commands. It can search and play s
 `%resume` or `%unpause` Resume audio
 `%stop` Stop audio
 
+`%skip` Skip to the next song in queue if any
 `%vol [Num]` Change volume/show current volume
 `%np` Show the currently playing song
+
+`%pl` or `%queue` Show the upcoming songs if any
+`%pop <Num>` Remove a song from the queue
+`%clear` Clear the queue
+
 `%leave` or `%disconnect` Disconnect from voice channel
-
-`%pl` Show playlist
-`%pop <Num>` Remove song from playlist
-`%clear` Clear playlist
-
 `%debug` Attempt to debug the voice client
 `%plugin` More neat features in my music commands
 
@@ -26,11 +27,11 @@ Next, we will discuss some of Botbadi's music commands. It can search and play s
 Let's start by talking about the moderation commands. Although there are fewer commands than other moderation bots, the commands prove to be functioning and easy to use. The user parameter in many of these commands can be in the form of either a mention or the identification number (ID) of the user.
 
 **No permission**
-`%whois <User>` Display user information
+`%whois [User]` Display user information
 
 **Manage messages permission**
-`%set` Configure server settings
-`%slow <Num> [s/m/h]` Set slowmode - max 6 hrs
+`%set` Configure server settings including auto moderation
+`%slow [Num] [s/m/h]` Set slowmode - max 6 hrs
 `%dm <User> <Msg>` DM user through me
 
 `%del [0-100] [User]` Delete channel messages

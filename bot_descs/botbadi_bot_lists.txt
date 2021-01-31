@@ -1,6 +1,9 @@
 https://top.gg/bot/753718230333522131
     use latest
 
+https://discordbotlist.com/bots/botbadi
+    use Markdown version
+
 https://bots.discordlabs.org/bot/753718230333522131
     use latest, image sizer css inline
 
