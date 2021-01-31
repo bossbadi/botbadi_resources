@@ -1,6 +1,8 @@
+https://github.com/plasticuproject/cleverbotfree
+
 -mc games 20s? larger images?
 
--kuwahara slow, resize image
+-kuwahara slow, resize image, convert image to jpg
 
 -lfind
 
@@ -63,11 +65,6 @@
 -add lockdown channel command
 
 -bot auto leaves vc
-
--ADD A QUEUE SYSTEM
-    So that music doesn't just stop if you do the %stop
-    But if multiple people are listening then queue system would be good
-    Orders songs, first play person1's song, then person2's song
 
 -(high priority) more settings:
     on member join message toggle on/off

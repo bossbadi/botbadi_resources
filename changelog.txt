@@ -1,3 +1,11 @@
+1/30/2021
+v2.8.3:
+    -Fixed encoding bug with '%play' command
+    -Searches YouTube links rather than play them
+    -The queue system is finally here! (Not 100% bug free)
+    -Skip to the next song in queue with ease (%skip)
+    -New songs added to bossbadi's playlist (%plugin)
+
 1/29/2021
 v2.8.2:
     -Improved calculator command (%calc)
