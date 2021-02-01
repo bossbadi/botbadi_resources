@@ -1,5 +1,3 @@
-https://github.com/plasticuproject/cleverbotfree
-
 -mc games 20s? larger images?
 
 -kuwahara slow, resize image, convert image to jpg
@@ -49,8 +47,6 @@ https://github.com/plasticuproject/cleverbotfree
 -add reaction roles
 
 -rich leaderboard is a bit slow
-
--bug when moderator moves bot to another voice channel
 
 -auto delete server setting if removed from a server
 
