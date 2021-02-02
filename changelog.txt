@@ -1,3 +1,11 @@
+2/1/2021
+v2.8.5:
+    -Added error messages for queue commands
+    -Added alias to '%np' command (%nowplaying)
+    -Error when custom playlist empty fixed
+    -Think I fixed the wrong title/thumbnail bug
+    -Multiplayer games also give money now (%h.games)
+
 1/31/2021
 v2.8.4:
     -Fixed bossbadi's playlist not looping bug

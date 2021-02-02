@@ -15,7 +15,7 @@ Next, we will discuss some of Botbadi's music commands. It can search and play s
 `%vol [Num]` Change volume/show current volume
 `%np` Show the currently playing song
 
-`%pl` or `%queue` Show the upcoming songs if any
+`%queue [Keywords]` Show the music queue/add song to queue
 `%pop <Num>` Remove a song from the queue
 `%clear` Clear the queue
 
@@ -49,37 +49,37 @@ Let's start by talking about the moderation commands. Although there are fewer c
 ### Images
 Similar to other popular Discord bots, Botbadi can manipulate images in various ways. Surprise your friends by adding filters, mods, and special effects to their profile pictures.
 
-`&suck [User/URL]` Get sucked into a black hole at the center
-`&swirl [User/URL]` Create a whirlpool effect by rotating the pixels
-`&ripple [User/URL]` Create a ripple or wave effect with the image
+`%suck [User/URL]` Get sucked into a black hole at the center
+`%swirl [User/URL]` Create a whirlpool effect by rotating the pixels
+`%ripple [User/URL]` Create a ripple or wave effect with the image
 
-`&carve [User/URL]` Carve the image on a gray surface
-`&kuwahara [User/URL]` Add smoothing to reduce noise but preserve edges
-`&spray [User/URL]` Give the image a spray-painted feel
+`%carve [User/URL]` Carve the image on a gray surface
+`%kuwahara [User/URL]` Add smoothing to reduce noise but preserve edges
+`%spray [User/URL]` Give the image a spray-painted feel
 
-`&edge [User/URL]` Detect edges on images with a simple convolution filter
-`&burn [User/URL]` Burn the image like it just came out of the furnace
-`&emboss [User/URL]` Generate a 3D print relief effect
+`%edge [User/URL]` Detect edges on images with a simple convolution filter
+`%burn [User/URL]` Burn the image like it just came out of the furnace
+`%emboss [User/URL]` Generate a 3D print relief effect
 
-`&sepia [User/URL]` Give the image a brownish tone just like the early days
-`&noise [User/URL]` Add bits of color over the image
-`&sketch [User/URL]` Make it look like an artist sketched it
+`%sepia [User/URL]` Give the image a brownish tone just like the early days
+`%noise [User/URL]` Add bits of color over the image
+`%sketch [User/URL]` Make it look like an artist sketched it
 
-`&png [Text]` Generate a PNG image with your text
-`&triggered [User/URL]` Well someone is triggered (returns a GIF)
-`&sharp [User/URL]` Sharpen up an image making it more vivid
+`%png [Text]` Generate a PNG image with your text
+`%triggered [User/URL]` Well someone is triggered (returns a GIF)
+`%sharp [User/URL]` Sharpen up an image making it more vivid
 
-`&jail [User/URL]` They broke the law. They pay the consequences.
-`&rain [User/URL]` It's raining, very sad times indeed...
-`&bright [User/URL]` Discord light theme flashbacks...oww my eyes!
+`%jail [User/URL]` They broke the law. They pay the consequences.
+`%rain [User/URL]` It's raining, very sad times indeed...
+`%bright [User/URL]` Discord light theme flashbacks...oww my eyes!
 
-`&dark [User/URL]` Turn the brightness down real low
-`&invert [User/URL]` Invert the colors of an image
-`&updown [User/URL]` Turn an image upside down, or 180 degrees
+`%dark [User/URL]` Turn the brightness down real low
+`%invert [User/URL]` Invert the colors of an image
+`%updown [User/URL]` Turn an image upside down, or 180 degrees
 
-`&blur [User/URL]` Gaussian blur an image (basically blurring it)
-`&pixel [User/URL]` Pixelate an image (like blurring but broader)
-`&gray [User/URL]` Grayscale an image (I know, everyone's least favorite)
+`%blur [User/URL]` Gaussian blur an image (basically blurring it)
+`%pixel [User/URL]` Pixelate an image (like blurring but broader)
+`%gray [User/URL]` Grayscale an image (I know, everyone's least favorite)
 
 ### Economy
 Botbadi has a rather basic currency system, but many users find it addicting. Users can earn coins by completing tasks such as completing a typing challenge or solving a math problem and spend their earnings on cool items from the shop. This feature is still developing as more jobs and products are added.
@@ -92,8 +92,9 @@ Botbadi has a rather basic currency system, but many users find it addicting. Us
 
 **Earning money**
 `%bake` Bake something for `1-5 coins`
-`%h.math` Any math game for `20 coins`
-`%type` or `%work` 20s typing game for `100 coins`
+`%h.games` Any multiplayer for `10-20 coins`
+`%h.math` Any math game for `20-30 coins`
+`%type` or `%work` 20s typing game for `90-120 coins`
  
 ### General
 Here are some general commands for the bot. These are mostly fun commands which might be useful at times.

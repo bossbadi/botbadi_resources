@@ -1,5 +1,3 @@
--mc games 20s? larger images?
-
 -kuwahara slow, resize image, convert image to jpg
 
 -lfind
