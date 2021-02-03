@@ -1,3 +1,10 @@
+2/3/2021
+v2.8.6:
+    -Can't queue file upload using '%queue' fixed
+    -Temporarily fixed slow APIs crashing the bot
+    -More diverse and better pet images (%pet)
+    -Funnier memes? At least they've got captions
+
 2/1/2021
 v2.8.5:
     -Added error messages for queue commands
