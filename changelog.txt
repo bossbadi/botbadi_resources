@@ -1,3 +1,10 @@
+2/4/2021
+v2.8.7:
+    -Server info command added alias (%si)
+    -Fixed error when playing single results
+    -Fixed error when playing a number keyword
+    -Issue with wrong title to video matchup fixed
+
 2/3/2021
 v2.8.6:
     -Can't queue file upload using '%queue' fixed
