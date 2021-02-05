@@ -1,4 +1,9 @@
 2/4/2021
+v2.8.8:
+    -Fixed error when playing "youtu.be" links
+    -Fixed obscured titles in bossbadi's playlist
+    -Improved muted role perms setup (it's faster)
+    -Improved '%eval' command
 v2.8.7:
     -Server info command added alias (%si)
     -Fixed error when playing single results
