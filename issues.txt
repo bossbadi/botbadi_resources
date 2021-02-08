@@ -1,3 +1,17 @@
+-public %ss?
+
+-vol large nums
+
+-bluefox
+
+-glog in channel
+
+-server count on bot lists
+
+-error when moved from vc
+
+-lget emails
+
 -kuwahara slow, resize image, convert image to jpg
 
 -lfind
