@@ -1,25 +1,78 @@
-<p>BossBeats is a smarter music bot that can has advanced search and play features. It can stream songs and videos directly from YouTube. It can also stream audio files from other websites. Get started by typing <code>$help</code>.
-<br>
-<br>
-<b style="color:red">Here are the main commands:</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$join</code> - Join your voice channel<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$play {Keywords}</code> - Play from YouTube/URL<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$search [Keywords]</code> - Search YouTube<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$pause</code> - Pause music<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$resume/$unpause</code> - Resume music<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$stop</code> - Stop music<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$plist</code> - Show playlist<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$pop {Num}</code> - Remove song from playlist<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$clear</code> - Empty playlist<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$leave/$disconnect</code> - Disconnect from voice channel<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$debug</code> - May fix VC bugs (don't use unless emergency)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$ping</code> - Check my response time<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<code>$info/$about</code> - Bot information<br>
-<br>
-<br>
+<style>
+body {
+    background: linear-gradient(180deg, rgba(168, 50, 50, 1) 0%, rgba(50, 85, 168, 1) 100%);
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translatey(-20px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+}
+
+.entity-header__image {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    img { width: 100%; height: auto; }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+</style>
+
+<p>BossBeats is a smarter music bot that can has advanced search and play features. It can stream songs directly from YouTube and other raw stream URLs. It can also play from file uploads. Get started by typing <code>$help</code>.
+</p>
+
+<h2>Here are the main commands:</h2>
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr><td><code>join</code></td><td>Join your voice channel</td></tr>
+  <tr><td><code>play [Keywords]</code></td><td>Play from YouTube/URL/file upload</td></tr>
+  <tr><td><code>search [Keywords]</code></td><td>Perform a YouTube search</td></tr>
+
+  <tr><td><code>pause</code></td><td>Pause audio</td></tr>
+  <tr><td><code>resume</code> or <code>unpause</code></td><td>Resume audio</td></tr>
+  <tr><td><code>stop</code></td><td>Stop audio</td></tr>
+
+  <tr><td><code>skip</code></td><td>Skip to the next song in queue if any</td></tr>
+  <tr><td><code>vol [Num]</code></td><td>Change volume/show current volume</td></tr>
+  <tr><td><code>np</code></td><td>Show the currently playing song</td></tr>
+
+  <tr><td><code>queue [Keywords]</code></td><td>Show the music queue/add song to queue</td></tr>
+  <tr><td><code>pop {Num}</code></td><td>Remove a song from the queue</td></tr>
+  <tr><td><code>clear</code></td><td>Clear the queue</td></tr>
+
+  <tr><td><code>leave</code> or <code>disconnect</code></td><td>Disconnect from voice channel</td></tr>
+  <tr><td><code>debug</code></td><td>Attempt to debug the voice client</td></tr>
+</table>
+
+<p>
+Note the braces <code>{}</code> are only placeholders and should not be typed.
+<br><br>
 Every application has bugs, and this bot is no exception. Sometimes the API that is used to stream and play songs does not work, but this is really rare. This bot uses many APIs for music, so if one API doesn't work, it will automatically move on to the next. If all of the APIs don't work, you will receive an error message. Here are some of the fixes that may help you:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;-Try again<br>
 &nbsp;&nbsp;&nbsp;&nbsp;-Disconnect and reconnect yourself and the bot<br>
@@ -27,7 +80,7 @@ Every application has bugs, and this bot is no exception. Sometimes the API that
 &nbsp;&nbsp;&nbsp;&nbsp;-Use the debug command<br>
 <br>
 As always, if you are experiencing any issues, don't hesitate to contact the developer:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>Email:</b> <a href="mailto:andy@minnwater.com">andy@minnwater.com</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>Discord:</b> goop bro#0451<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<b>Support server:</b> <a href="https://discord.gg/rzDqQqD" target="_blank">https://discord.gg/rzDqQqD</a><br>
+<b>Email:</b> <a href="mailto:andy@minnwater.com">andy@minnwater.com</a><br>
+<b>Discord:</b> <a href="https://discord.com/users/755896753693261866" target="_blank">goop bro#0451</a><br>
+<b>Support server:</b> <a href="https://discord.gg/rzDqQqD" target="_blank">https://discord.gg/rzDqQqD</a><br>
 </p>
