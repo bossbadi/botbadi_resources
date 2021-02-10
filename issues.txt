@@ -1,3 +1,17 @@
+-chatbot and translator
+
+-play from playlist
+
+-stats command
+
+-calc simplify()
+
+-shorten eval os.system()
+
+-no prefix mode
+
+-os.system()
+
 -public %ss?
 
 -vol large nums

@@ -1,3 +1,7 @@
+2/9/2021
+v2.8.9:
+    -Randomized colors for snipe and editsnipe
+
 2/4/2021
 v2.8.8:
     -Fixed error when playing "youtu.be" links
