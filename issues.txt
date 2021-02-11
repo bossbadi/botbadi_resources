@@ -1,6 +1,6 @@
--chatbot and translator
+-chatbot
 
--play from playlist
+-play from yt playlist
 
 -stats command
 
@@ -10,15 +10,7 @@
 
 -no prefix mode
 
--os.system()
-
--public %ss?
-
--vol large nums
-
 -bluefox
-
--glog in channel
 
 -server count on bot lists
 

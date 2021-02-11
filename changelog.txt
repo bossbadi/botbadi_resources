@@ -1,3 +1,15 @@
+2/10/2021
+v2.9.0:
+    -Improved server info command (%serverinfo)
+    -Screenshot a website in an NSFW channel (%ss)
+    -Max music volume limited to 200% (%vol)
+    -Translate command back up (%translate)
+    -Chatbot API down -> giving random responses
+    -Fixed permissions and errors in moderation cmds
+    -Improved '%set' and '%uset' (simplified params)
+    -Fixed minor bug playing from dev's playlist
+    -Empty dev's playlist auto refills (%pl --bossbadi)
+
 2/9/2021
 v2.8.9:
     -Randomized colors for snipe and editsnipe
