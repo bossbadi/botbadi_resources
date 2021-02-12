@@ -1,4 +1,6 @@
--chatbot
+-check perm of member
+
+-api on bluefox
 
 -play from yt playlist
 
@@ -9,8 +11,6 @@
 -shorten eval os.system()
 
 -no prefix mode
-
--bluefox
 
 -server count on bot lists
 
@@ -83,4 +83,4 @@
 -(high priority) more settings:
     on member join message toggle on/off
 
--Different types of work? Typing is easy, but maybe math could be a job to do math problems with levels, (I.e.: Substitute, teacher, proffesser) with increasingly harder problems. Maybe add heists, but you have to defuse traps, prevent being caught, or so thing other than a dice roll.
+-Different types of work? Typing is easy, but maybe math could be a job to do math problems with levels, (I.e.: Substitute, teacher, proffesser) with increasingly harder problems. Maybe add heists, but you have to defuse traps, prevent being caught, or so thing other than a dice roll.vvvv
