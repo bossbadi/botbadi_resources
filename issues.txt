@@ -1,3 +1,9 @@
+-add clear reactions cmd
+
+-update css bg on top
+
+-new avatar?
+
 -check perm of member
 
 -api on bluefox
@@ -15,8 +21,6 @@
 -server count on bot lists
 
 -error when moved from vc
-
--lget emails
 
 -kuwahara slow, resize image, convert image to jpg
 
@@ -83,4 +87,4 @@
 -(high priority) more settings:
     on member join message toggle on/off
 
--Different types of work? Typing is easy, but maybe math could be a job to do math problems with levels, (I.e.: Substitute, teacher, proffesser) with increasingly harder problems. Maybe add heists, but you have to defuse traps, prevent being caught, or so thing other than a dice roll.vvvv
+-Different types of work? Typing is easy, but maybe math could be a job to do math problems with levels, (I.e.: Substitute, teacher, proffesser) with increasingly harder problems. Maybe add heists, but you have to defuse traps, prevent being caught, or so thing other than a dice roll.

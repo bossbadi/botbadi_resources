@@ -1,3 +1,9 @@
+2/13/2021
+v2.9.2:
+    -Fixed index out of range error for settings
+    -Improved link parsing algorithm
+    -Added mass ping auto mod (5+ pings in msg)
+
 2/12/2021
 v2.9.1:
     -Randomized embed colors for '%dm' command
