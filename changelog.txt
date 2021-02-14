@@ -1,3 +1,10 @@
+2/14/2021
+v2.9.3:
+    -Bots being auto modded during edits fixed?
+    -Added `%bedit` and `%bdel` owner commands
+    -Improved missing permission errors
+    -Remove all reactions from a message (%rmr)
+
 2/13/2021
 v2.9.2:
     -Fixed index out of range error for settings
