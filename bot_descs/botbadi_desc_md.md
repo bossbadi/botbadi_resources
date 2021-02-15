@@ -36,6 +36,7 @@ Let's start by talking about the moderation commands. Although there are fewer c
 
 `%del [0-100] [User]` Delete channel messages
 `%wipe <User>` Delete user history (100/channel)
+`%rmr <MsgID>` Remove all reactions from a message
 
 **Mute permission**
 `%mute [User] [Reason]` Mute user/set up muted role
