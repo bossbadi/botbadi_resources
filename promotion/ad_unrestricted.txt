@@ -1,0 +1,21 @@
+So basically what this server is is that you can do practically **WHATEVER** you want except for certain admin permissions.
+This means that *anyone* can:
+```css
+-manage messages
+-manage roles
+-manage channels
+-view audit log
+-manage nicknames
+-manage emojis
+-send tts messages
+-mass mention
+-plus a bit more
+```
+**Restrictions (read carefully):**
+```fix
+-Cannot moderate other members (because someone will probably ban all the members)
+-Primarily a safe for work server (because people of all ages are here)
+```
+You can think of this server as "*A town with no laws.*" If you're interested in joining, make sure that you mute and suppress all mentions so you won't go out of your mind. This is meant to be a fun community, so try your best to keep it that way
+
+https://discord.gg/2sqVgts
