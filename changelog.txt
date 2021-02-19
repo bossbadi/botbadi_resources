@@ -1,3 +1,13 @@
+2/18/2021
+v2.9.5:
+    -Added source code compiler (%run)
+    -Check supported languages for compiler (%lang)
+
+2/16/2021
+v2.9.4:
+    -Updated credits (%credits)
+    -Fixed delays for other users when using image mods
+
 2/14/2021
 v2.9.3:
     -Bots being auto modded during edits fixed?
