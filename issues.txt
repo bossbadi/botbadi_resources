@@ -1,12 +1,14 @@
--update css bg on top
+-new server banner
 
--new avatar?
+-kuwahara slow, resize image, convert image to jpg
 
 -check perm of member
 
--api on bluefox
-
 -play from yt playlist
+
+-update css bg on top
+
+-api on bluefox
 
 -stats command
 
@@ -16,11 +18,7 @@
 
 -no prefix mode
 
--server count on bot lists
-
 -error when moved from vc
-
--kuwahara slow, resize image, convert image to jpg
 
 -lfind
 
@@ -63,8 +61,6 @@
 -SoundCloud, Spotify
 
 -add reaction roles
-
--rich leaderboard is a bit slow
 
 -auto delete server setting if removed from a server
 

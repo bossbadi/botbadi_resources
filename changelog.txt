@@ -1,3 +1,10 @@
+2/19/2021
+v2.9.6:
+    -Made economy leaderboard much faster (%rich)
+    -Updated muted role to a more gray color
+    -Spam auto mod now ignores slowmode channels
+    -Direct message chatbot is here! DM the bot to see
+
 2/18/2021
 v2.9.5:
     -Added source code compiler (%run)
