@@ -1,3 +1,9 @@
+2/21/2021
+v2.9.7:
+    -Fixed error when running '%vol' when music's stopped
+    -Improved '%perm' command to get anyone's permissions
+    -Fixed a tiny error when queuing large URLs
+
 2/19/2021
 v2.9.6:
     -Made economy leaderboard much faster (%rich)

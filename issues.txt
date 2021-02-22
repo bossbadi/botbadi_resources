@@ -1,14 +1,8 @@
--new server banner
-
 -kuwahara slow, resize image, convert image to jpg
-
--check perm of member
 
 -play from yt playlist
 
 -update css bg on top
-
--api on bluefox
 
 -stats command
 
@@ -19,8 +13,6 @@
 -no prefix mode
 
 -error when moved from vc
-
--lfind
 
 -https://github.com/wafflecomposite/15.ai-Python-API
 
