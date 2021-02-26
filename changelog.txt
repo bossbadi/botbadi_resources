@@ -1,3 +1,8 @@
+2/25/2021
+v2.9.9:
+    -Added text recognition from image (%ocr)
+    -Reorganized command help embeds
+
 2/24/2021
 v2.9.8:
     -Added digit recognizer command (%predict)

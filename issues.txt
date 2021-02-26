@@ -1,3 +1,5 @@
+-async file write
+
 -kuwahara slow, resize image, convert image to jpg
 
 -play from yt playlist
