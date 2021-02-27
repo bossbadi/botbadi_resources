@@ -96,7 +96,7 @@ Botbadi has a rather basic currency system, but many users find it addicting. Us
 `%h.games` Any multiplayer for `10-20 coins`
 `%h.math` Any math game for `20-30 coins`
 `%type` or `%work` 20s typing game for `90-120 coins`
- 
+
 ### General
 Here are some general commands for the bot. These are mostly fun commands which might be useful at times.
 
@@ -104,9 +104,9 @@ Here are some general commands for the bot. These are mostly fun commands which 
 `%editsnipe [Channel]` Last edited msg in the channel
 `%hack [User]` Hack someone (definitely not real)
 
-`%emojify <Text>` Turn text into emojis
-`%emojiurl <Emojis>` Get URL of custom emoji
-`%embed <Text>` Generate an embed
+`%emojify <Text>` Turn text into thick, blue emojis
+`%ascii <Text>` Transform it into ascii-looking text
+`%embed <Text>` Generate an embed with the text
 
 `%say <Text>` Instantly repeat your message
 `%change <Text>` Change server-wide message
