@@ -1,3 +1,10 @@
+2/27/2021
+v3.0.1:
+    -Improved '%ocr' command (should be more accurate)
+    -Added '%ascii' command (kind of like bubble letters)
+    -Say goodbye to '%hi' and '%bye' commands
+    -Removed '%users' command, use server info instead
+
 2/26/2021
 v3.0.0:
     -Improved '%ss' command (higher quality images)
