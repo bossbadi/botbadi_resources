@@ -1,4 +1,7 @@
 2/27/2021
+v3.0.2:
+    -Added Spotify support (no playlists yet though)
+    -Fixed small error when searching long keywords
 v3.0.1:
     -Improved '%ocr' command (should be more accurate)
     -Added '%ascii' command (kind of like bubble letters)

@@ -1,10 +1,10 @@
+-Spotify playlists
+
 -async file write
 
 -kuwahara slow, resize image, convert image to jpg
 
 -play from yt playlist
-
--update css bg on top
 
 -stats command
 
@@ -28,8 +28,6 @@
 
 -bossbadi api
 
--https://github.com/iDutchy/sr_api/blob/master/DOCUMENTATION.md
-
 -https://no-api-key.com/
 
 -https://gdbrowser.com/api
@@ -52,7 +50,7 @@
 
 -add %roleinfo command
 
--SoundCloud, Spotify
+-SoundCloud
 
 -add reaction roles
 
