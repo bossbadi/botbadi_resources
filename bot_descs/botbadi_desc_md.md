@@ -1,10 +1,10 @@
 Botbadi is a multipurpose Discord bot that features commands in moderation, music, images, gaming, math and so much more. Type `%help` for all the commands and you'll be glad you did.
 
 ### Music
-Next, we will discuss some of Botbadi's music commands. It can search and play songs directly from YouTube or you can pass in a direct URL to the audio source. Most of the classic music commands are here, but there may be bugs now and then.
+Let's start by talking about the music commands. Botbadi can search and play songs from YouTube and Spotify as well as file uploads and direct links to audio sources. Most of the classic music commands are here, but there may be bugs now and then.
 
 `%join` Join your voice channel
-`%play [Keywords]` Play from YouTube/URL/file upload
+`%play [Keywords]` Play from Keywords/URL/file upload
 `%search [Keywords]` Perform a YouTube search
 
 `%pause` Pause audio
@@ -24,7 +24,7 @@ Next, we will discuss some of Botbadi's music commands. It can search and play s
 `%plugin` More neat features in my music commands
 
 ### Moderation
-Let's start by talking about the moderation commands. Although there are fewer commands than other moderation bots, the commands prove to be functioning and easy to use. The user parameter in many of these commands can be in the form of either a mention or the identification number (ID) of the user.
+Next, let's take a look at the moderation commands. Although there are fewer commands than other moderation bots, the commands prove to be functioning and easy to use. The user parameter in many of these commands can be in the form of either a mention or the identification number (ID) of the user.
 
 **No permission**
 `%whois [User]` Display user information
