@@ -1,3 +1,10 @@
+3/2/2021
+v3.0.3:
+    -Error when running '%ss' command fixed
+    -Error when queueing (%play) YouTube links fixed
+    -Improved YouTube link parsing algorithm
+    -Fixed unrelated videos appearing (%queue YT links)
+
 2/27/2021
 v3.0.2:
     -Added Spotify support (no playlists yet though)
