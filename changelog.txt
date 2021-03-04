@@ -1,3 +1,12 @@
+3/4/2021
+v3.0.4:
+    -Fixed music error if bot lacks add reactions perm
+    -Added new music to developer's playlist (%plugin)
+    -Restricted slowmode command to channel managers
+    -Restricted settings command to server managers
+    -Redesigned many command help embeds
+    -Removed '%bot' command, use '%invite' instead
+
 3/2/2021
 v3.0.3:
     -Error when running '%ss' command fixed

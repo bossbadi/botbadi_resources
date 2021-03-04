@@ -1,3 +1,9 @@
+-make imgs in bot desc centered
+
+-better db query
+
+-https://obrazium.com/endpoints
+
 -Spotify playlists
 
 -async file write
@@ -37,8 +43,6 @@
 -fastest typer gets special role or smth
 
 -more typing games, different word lengths and salaries
-
--use a better database?
 
 -another way to earn money like if botbadi said: guess a number 1 - 10 you got 10 sec
 
