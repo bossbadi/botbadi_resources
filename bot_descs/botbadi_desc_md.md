@@ -1,7 +1,23 @@
 Botbadi is a multipurpose Discord bot that features commands in moderation, music, images, gaming, math and so much more. Type `%help` for all the commands and you'll be glad you did.
 
+### Brains
+We will begin with the interesting commands. These require a bit of brainpower compared to the others.
+
+**Chatbot**
+> Try asking or saying something to me right here in the chat or send me a DM. Make sure to have `botbadi` in your message if you're chatting here. If you want to chat in DMs, you don't need to mention my name.
+
+> Text channel example: `How are you botbadi?`
+> Direct message example: `How are you?`
+
+**Optical character recognition**
+> Recognize text from an image. Either upload an image or include the URL to the image in the command. Usage: `%ocr [Image]`
+
+**Hand-drawn digit recognition**
+> I will predict the digit in the image. You can upload the image file or provide the image URL in the command. Usage: `%predict [Image]`
+
+
 ### Music
-Let's start by talking about the music commands. Botbadi can search and play songs from YouTube and Spotify as well as file uploads and direct links to audio sources. Most of the classic music commands are here, but there may be bugs now and then.
+Let's take a look at the music commands. Botbadi can search and play songs from YouTube and Spotify as well as file uploads and direct links to audio sources. Most of the classic music commands are here, but there may be bugs now and then.
 
 `%join` Join your voice channel
 `%play [Keywords]` Play from Keywords/URL/file upload
@@ -27,25 +43,28 @@ Let's start by talking about the music commands. Botbadi can search and play son
 Next, let's take a look at the moderation commands. Although there are fewer commands than other moderation bots, the commands prove to be functioning and easy to use. The user parameter in many of these commands can be in the form of either a mention or the identification number (ID) of the user.
 
 **No permission**
-`%whois [User]` Display user information
+> `%whois [User]` Display user information
 
 **Manage messages permission**
-`%set` Configure server settings including auto moderation
-`%slow [Num] [s/m/h]` Set slowmode - max 6 hrs
-`%dm <User> <Msg>` DM user through me
-
-`%del [0-100] [User]` Delete channel messages
-`%wipe <User>` Delete user history (100/channel)
-`%rmr <MsgID>` Remove all reactions from a message
+> `%dm <User> <Msg>` DM user through me
+> `%del [0-100] [User]` __Delete channel messages__
+> `%wipe <User>` __Delete user history (100/channel)__
+> `%rmr <MsgID>` Remove all reactions from a message
 
 **Mute permission**
-`%mute [User] [Reason]` Mute user/set up muted role
-`%unmute <User> [Reason]` Unmute user
+> `%mute [User] [Reason]` __Mute user/set up muted role__
+> `%unmute <User> [Reason]` Unmute user
 
 **Kick/Ban permission**
-`%kick <User> [Reason]` Kick user
-`%ban <User> [Reason]` Ban user/hack ban user
-`%unban <User ID> [Reason]` Unban user
+> `%kick <User> [Reason]` Kick user
+> `%ban <User> [Reason]` Ban user/hack ban user
+> `%unban <User ID> [Reason]` Unban user
+
+**Manage channels permission**
+> `%slow [Num] [s/m/h]` Set slowmode - max 6 hrs
+
+**Manage server permission**
+> `%set` Configure server settings including auto moderation
  
 ### Images
 Similar to other popular Discord bots, Botbadi can manipulate images in various ways. Surprise your friends by adding filters, mods, and special effects to their profile pictures.
@@ -92,10 +111,10 @@ Botbadi has a rather basic currency system, but many users find it addicting. Us
 `%shop` Visit the shop to spend your coins
 
 **Earning money**
-`%bake` Bake something for `1-5 coins`
-`%h.games` Any multiplayer for `10-20 coins`
-`%h.math` Any math game for `20-30 coins`
-`%type` or `%work` 20s typing game for `90-120 coins`
+> `%bake` Bake something for `1-5 coins`
+> `%h.games` Any multiplayer for `10-20 coins`
+> `%h.math` Any math game for `20-30 coins`
+> `%type` or `%work` 20s typing game for `90-120 coins`
 
 ### General
 Here are some general commands for the bot. These are mostly fun commands which might be useful at times.
@@ -115,42 +134,37 @@ Here are some general commands for the bot. These are mostly fun commands which 
 ### Random
 Next are the random commands. Random images, insults, predictions, you name it.
 
-`%fact` Random interesting fact
-`%8ball` Magic 8-Ball
-
 **Classics**
-`%flip` or `%coin` Flip a two-sided coin
-`%roll` or `%dice` Roll a six-sided die
-`%rand <Start> <End>` Random integer
+> `%fact` Random interesting fact
+> `%8ball` Magic 8-Ball
+
+> `%flip` or `%coin` Flip a two-sided coin
+> `%roll` or `%dice` Roll a six-sided die
+> `%rand <Start> <End>` Random integer
 
 **Images**
-`%meme` Random meme
-`%pet` Random pet image
+> `%meme` Random meme
+> `%pet` Random pet image
 
 **Insults**
-`%flame` Insult your mom
-`%roast` Insult you
-`%insult` Random insult
+> `%flame` Insult your mom
+> `%roast` Insult you
+> `%insult` Random insult
 
 ### Math
 If you're super into math and just can't get enough of it every day, well you're in luck. Botbadi has various math speedrun games so you can race your friends (if you have any). The built-in calculator feature comes in very handy when you can't find your normal calculator. Botbadi can compute arithmetic, trigonometry, logarithms, and some other stuff. It's a pretty smart calculator. Including the calculator feature, the bot can generate a graph given ordered pairs. I don't see a use for picking up your graphing calculator again, unless you're graphing an equation.
 
-**The calculator**
-`%calc <Problem>`
-Compute a math problem. Example without algebra, just arithmetic
-```%calc log(sqrt(7)) * abs(-1)```
-**The plotter**
-`%graph <Ordered pairs>`
-Graph some points. Example comma-separated; spacing doesn't matter
-```%graph (0 ,2) , ( 3,4), (5, 12 )```
-**Games (20 coins/game)**
-`%math` Random arithmetic game
-`%add` Addition game
-`%subt` Subtraction game
+`%calc <Problem>` Compute a math problem.
+`%graph <Ordered pairs>` Graph some points.
 
-`%mult` Multiplication game
-`%div` Division game
-`%sqrt` Square root game
+**Games (20-30 coins/game)**
+> `%math` Random arithmetic game
+> `%add` Addition game
+> `%subt` Subtraction game
+
+> `%mult` Multiplication game
+> `%div` Division game
+> `%sqrt` Square root game
 
 ### And More
 This bot also comes with a few multiplayer games to get your Discord servers up and running with guessing games focused on Minecraft items and celebrities. It also comes equipped with memes, jokes, and interesting facts to keep you entertained. It is the all-around bot that will add a little bit of everything to its servers. There were numerous other fun commands and features that weren't described in detail here and it's up to you to discover them!
