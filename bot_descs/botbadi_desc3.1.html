@@ -1,11 +1,11 @@
 <!--
 v3.1
-linear gradient background, floating avatar
+linear gradient background, floating avatar, images vertically aligned
 -->
 
 <style>
 body {
-    background: linear-gradient(180deg, rgba(0, 94, 120, 1) 0%, rgba(156, 47, 0, 1) 100%);
+    background: linear-gradient(95deg, #008599, #9c2f00);
 }
 
 @keyframes float {
@@ -35,6 +35,13 @@ body {
     img { width: 100%; height: auto; }
 }
 
+.entity-content__description,
+.entity-sidebar__button,
+.entity-header__button-text,
+.entity-table__cell {
+  background-color: rgba(0, 0, 0, 70%);
+}
+
 code {
     color: #02c7fe;
 }
@@ -60,220 +67,242 @@ td, th {
 
 <h2 style="color: #fe4a00">Brains</h2>
 <p>We will begin with the interesting commands. These require a bit of brainpower compared to the others.</p>
-<table><tr><td class="l-commands">
-<table>
-  <tr>
-    <th>Command</th>
-    <th>Description</th>
-  </tr>
-  <tr><td><code>botbadi</code></td><td>Talk to the chatbot by including <code>botbadi</code> in your message.</td></tr>
-  <tr><td><code>ocr [Image]</code></td><td>Recognize text from an image.</td></tr>
-  <tr><td><code>predict [Image]</code></td><td>I will predict the digit in the image.</td></tr>
-</table>
-</td><td style="width: 30%">
-<img class="img-shadow" src="https://i.imgur.com/vaP6ovH.png">
-</td></tr></table>
+<table><tr>
+<td class="l-commands">
+  <table>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+    <tr><td><code>botbadi</code></td><td>Talk to the chatbot by including <code>botbadi</code> in your message.</td></tr>
+    <tr><td><code>ocr [Image]</code></td><td>Recognize text from an image.</td></tr>
+    <tr><td><code>predict [Image]</code></td><td>I will predict the digit in the image.</td></tr>
+  </table>
+</td>
+<td style="width: 30%; vertical-align: middle">
+  <img class="img-shadow" src="https://i.imgur.com/vaP6ovH.png">
+</td>
+</tr></table>
 
 
 <h2 style="color: #fe4a00">Music</h2>
 <p>Let's take a look at the music commands. Botbadi can search and play songs from YouTube and Spotify as well as file uploads and direct links to audio sources. Most of the classic music commands are here, but there may be bugs now and then.</p>
-<table><tr><td>
-<table>
-  <tr>
-    <th>Command</th>
-    <th>Description</th>
-  </tr>
-  <tr><td><code>join</code></td><td>Join your voice channel</td></tr>
-  <tr><td><code>play [Keywords]</code></td><td>Play from Keywords/URL/file upload</td></tr>
-  <tr><td><code>search [Keywords]</code></td><td>Perform a YouTube search</td></tr>
+<table><tr>
+<td style="width: 30%; vertical-align: middle">
+  <img class="img-shadow" src="https://i.imgur.com/Qp1YKLD.png">
+  <img class="img-shadow" src="https://i.imgur.com/DJtycxE.png">
+  <img class="img-shadow" src="https://i.imgur.com/RJABLWb.png">
+</td>
+<td>
+  <table>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+    <tr><td><code>join</code></td><td>Join your voice channel</td></tr>
+    <tr><td><code>play [Keywords]</code></td><td>Play from Keywords/URL/file upload</td></tr>
+    <tr><td><code>search [Keywords]</code></td><td>Perform a YouTube search</td></tr>
 
-  <tr><td><code>pause</code></td><td>Pause audio</td></tr>
-  <tr><td><code>resume</code> or <code>unpause</code></td><td>Resume audio</td></tr>
-  <tr><td><code>stop</code></td><td>Stop audio</td></tr>
+    <tr><td><code>pause</code></td><td>Pause audio</td></tr>
+    <tr><td><code>resume</code> or <code>unpause</code></td><td>Resume audio</td></tr>
+    <tr><td><code>stop</code></td><td>Stop audio</td></tr>
 
-  <tr><td><code>skip</code></td><td>Skip to the next song in queue if any</td></tr>
-  <tr><td><code>vol [Num]</code></td><td>Change volume/show current volume</td></tr>
-  <tr><td><code>np</code></td><td>Show the currently playing song</td></tr>
+    <tr><td><code>skip</code></td><td>Skip to the next song in queue if any</td></tr>
+    <tr><td><code>vol [Num]</code></td><td>Change volume/show current volume</td></tr>
+    <tr><td><code>np</code></td><td>Show the currently playing song</td></tr>
 
-  <tr><td><code>queue [Keywords]</code></td><td>Show the music queue/add song to queue</td></tr>
-  <tr><td><code>pop <Num></code></td><td>Remove a song from the queue</td></tr>
-  <tr><td><code>clear</code></td><td>Clear the queue</td></tr>
+    <tr><td><code>queue [Keywords]</code></td><td>Show the music queue/add song to queue</td></tr>
+    <tr><td><code>pop <Num></code></td><td>Remove a song from the queue</td></tr>
+    <tr><td><code>clear</code></td><td>Clear the queue</td></tr>
 
-  <tr><td><code>leave</code> or <code>disconnect</code></td><td>Disconnect from voice channel</td></tr>
-  <tr><td><code>debug</code></td><td>Attempt to debug the voice client</td></tr>
-  <tr><td><code>plugin</code></td><td>More neat features in my music commands</td></tr>
-</table>
-</td><td style="width: 30%">
-<img class="img-shadow" src="https://i.imgur.com/clcJgC4.png">
-<img class="img-shadow" src="https://i.imgur.com/UzVr8T1.png">
-<img class="img-shadow" src="https://i.imgur.com/whijboo.png">
-</td></tr></table>
+    <tr><td><code>leave</code> or <code>disconnect</code></td><td>Disconnect from voice channel</td></tr>
+    <tr><td><code>debug</code></td><td>Attempt to debug the voice client</td></tr>
+    <tr><td><code>plugin</code></td><td>More neat features in my music commands</td></tr>
+  </table>
+</td>
+</tr></table>
 
 
 <h2 style="color: #fe4a00">Moderation</h2>
 <p>Next, let's take a look at the moderation commands. Although there are fewer commands than other moderation bots, the commands prove to be functioning and easy to use. The user parameter in many of these commands can be in the form of either a mention or the identification number (ID) of the user.</p>
-<table><tr><td class="l-commands">
-<table>
-  <tr>
-    <th>Command</th>
-    <th>Description</th>
-  </tr>
-  <tr><td><code>whois [User]</code></td><td>Display user information</td></tr>
-  <tr><td><code>dm {User} {Msg}</code></td><td>DM user through me</td></tr>
-  <tr><td><code>del [0-100] [User]</code></td><td>Delete channel messages</td></tr>
-  <tr><td><code>wipe {User}</code></td><td>Delete user history (100/channel)</td></tr>
-  <tr><td><code>rmr {MsgID}</code></td><td>Remove all reactions from a message</td></tr>
-  <tr><td><code>mute [User] [Reason]</code></td><td>Mute user/set up muted role</td></tr>
-  <tr><td><code>unmute {User} [Reason]</code></td><td>Unmute user</td></tr>
-  <tr><td><code>kick {User} [Reason]</code></td><td>Kick user</td></tr>
-  <tr><td><code>ban {User} [Reason]</code></td><td>Ban user/hack ban user</td></tr>
-  <tr><td><code>unban {User ID} [Reason]</code></td><td>Unban user</td></tr>
-  <tr><td><code>slow [Num] [s/m/h]</code></td><td>Set slowmode - max 6 hrs</td></tr>
-  <tr><td><code>set</code></td><td>Configure server settings including auto moderation</td></tr>
-</table>
-</td><td style="width: 30%">
-<img class="img-shadow" src="https://i.imgur.com/A3pFRVv.png">
-<img class="img-shadow" src="https://i.imgur.com/RmYRRNn.png">
-</td></tr></table>
+<table><tr>
+<td class="l-commands">
+  <table>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+    <tr><td><code>whois [User]</code></td><td>Display user information</td></tr>
+    <tr><td><code>dm {User} {Msg}</code></td><td>DM user through me</td></tr>
+    <tr><td><code>del [0-100] [User]</code></td><td>Delete channel messages</td></tr>
+    <tr><td><code>wipe {User}</code></td><td>Delete user history (100/channel)</td></tr>
+    <tr><td><code>rmr {MsgID}</code></td><td>Remove all reactions from a message</td></tr>
+    <tr><td><code>mute [User] [Reason]</code></td><td>Mute user/set up muted role</td></tr>
+    <tr><td><code>unmute {User} [Reason]</code></td><td>Unmute user</td></tr>
+    <tr><td><code>kick {User} [Reason]</code></td><td>Kick user</td></tr>
+    <tr><td><code>ban {User} [Reason]</code></td><td>Ban user/hack ban user</td></tr>
+    <tr><td><code>unban {User ID} [Reason]</code></td><td>Unban user</td></tr>
+    <tr><td><code>slow [Num] [s/m/h]</code></td><td>Set slowmode - max 6 hrs</td></tr>
+    <tr><td><code>set</code></td><td>Configure server settings including auto moderation</td></tr>
+  </table>
+</td>
+<td style="width: 30%; vertical-align: middle">
+  <img class="img-shadow" src="https://i.imgur.com/ZRONOUz.png">
+  <img class="img-shadow" src="https://i.imgur.com/o0Ua2xs.png">
+  <img class="img-shadow" src="https://i.imgur.com/eIEPstm.png">
+</td>
+</tr></table>
 
 
 <h2 style="color: #fe4a00">Images</h2>
 <p>Similar to other popular Discord bots, Botbadi can manipulate images in various ways. Surprise your friends by adding filters, mods, and special effects to their profile pictures.</p>
-<table><tr><td class="l-commands">
-<table>
-  <tr>
-    <th>Command</th>
-    <th>Description</th>
-  </tr>
-  <tr><td><code>suck [User/URL]</code></td><td>Get sucked into a black hole at the center</td></tr>
-  <tr><td><code>swirl [User/URL]</code></td><td>Create a whirlpool effect by rotating the pixels</td></tr>
-  <tr><td><code>ripple [User/URL]</code></td><td>Create a ripple or wave effect with the image</td></tr>
-  <tr><td><code>carve [User/URL]</code></td><td>Carve the image on a gray surface</td></tr>
-  <tr><td><code>kuwahara [User/URL]</code></td><td>Add smoothing to reduce noise but preserve edges</td></tr>
-  <tr><td><code>spray [User/URL]</code></td><td>Give the image a spray-painted feel</td></tr>
-  <tr><td><code>edge [User/URL]</code></td><td>Detect edges on images with a simple convolution filter</td></tr>
-  <tr><td><code>burn [User/URL]</code></td><td>Burn the image like it just came out of the furnace</td></tr>
-  <tr><td><code>emboss [User/URL]</code></td><td>Generate a 3D print relief effect</td></tr>
-  <tr><td><code>sepia [User/URL]</code></td><td>Give the image a brownish tone just like the early days</td></tr>
-  <tr><td><code>noise [User/URL]</code></td><td>Add bits of color over the image</td></tr>
-  <tr><td><code>sketch [User/URL]</code></td><td>Make it look like an artist sketched it</td></tr>
+<table><tr>
+<td style="width: 30%; vertical-align: middle">
+  <img class="img-shadow" src="https://i.imgur.com/8gJrVLi.png">
+  <img class="img-shadow" src="https://i.imgur.com/iFmqilt.png">
+  <img class="img-shadow" src="https://i.imgur.com/uFV7qzZ.png">
+</td>
+<td class="l-commands">
+  <table>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+    <tr><td><code>suck [User/URL]</code></td><td>Get sucked into a black hole at the center</td></tr>
+    <tr><td><code>swirl [User/URL]</code></td><td>Create a whirlpool effect by rotating the pixels</td></tr>
+    <tr><td><code>ripple [User/URL]</code></td><td>Create a ripple or wave effect with the image</td></tr>
+    <tr><td><code>carve [User/URL]</code></td><td>Carve the image on a gray surface</td></tr>
+    <tr><td><code>kuwahara [User/URL]</code></td><td>Add smoothing to reduce noise but preserve edges</td></tr>
+    <tr><td><code>spray [User/URL]</code></td><td>Give the image a spray-painted feel</td></tr>
+    <tr><td><code>edge [User/URL]</code></td><td>Detect edges on images with a simple convolution filter</td></tr>
+    <tr><td><code>burn [User/URL]</code></td><td>Burn the image like it just came out of the furnace</td></tr>
+    <tr><td><code>emboss [User/URL]</code></td><td>Generate a 3D print relief effect</td></tr>
+    <tr><td><code>sepia [User/URL]</code></td><td>Give the image a brownish tone just like the early days</td></tr>
+    <tr><td><code>noise [User/URL]</code></td><td>Add bits of color over the image</td></tr>
+    <tr><td><code>sketch [User/URL]</code></td><td>Make it look like an artist sketched it</td></tr>
 
-  <tr><td><code>png [Text]</code></td><td>Generate a PNG image with your text</td></tr>
-  <tr><td><code>triggered [User/URL]</code></td><td>Well someone is triggered (returns a GIF)</td></tr>
-  <tr><td><code>sharp [User/URL]</code></td><td>Sharpen up an image making it more vivid</td></tr>
-  <tr><td><code>jail [User/URL]</code></td><td>They broke the law. They pay the consequences.</td></tr>
-  <tr><td><code>rain [User/URL]</code></td><td>It's raining, very sad times indeed...</td></tr>
-  <tr><td><code>bright [User/URL]</code></td><td>Discord light theme flashbacks...oww my eyes!</td></tr>
-  <tr><td><code>dark [User/URL]</code></td><td>Turn the brightness down real low</td></tr>
-  <tr><td><code>invert [User/URL]</code></td><td>Invert the colors of an image</td></tr>
-  <tr><td><code>updown [User/URL]</code></td><td>Turn an image upside down, or 180 degrees</td></tr>
-  <tr><td><code>blur [User/URL]</code></td><td>Gaussian blur an image (basically blurring it)</td></tr>
-  <tr><td><code>pixel [User/URL]</code></td><td>Pixelate an image (like blurring but broader)</td></tr>
-  <tr><td><code>gray [User/URL]</code></td><td>Grayscale an image (I know, everyone's least favorite)</td></tr>
-</table>
-</td><td style="width: 30%">
-<img class="img-shadow" src="https://i.imgur.com/h5F7alo.png">
-<img class="img-shadow" src="https://i.imgur.com/kpBqKHi.png">
-<img class="img-shadow" src="https://i.imgur.com/sbTGNwP.png">
-</td></tr></table>
+    <tr><td><code>png [Text]</code></td><td>Generate a PNG image with your text</td></tr>
+    <tr><td><code>triggered [User/URL]</code></td><td>Well someone is triggered (returns a GIF)</td></tr>
+    <tr><td><code>sharp [User/URL]</code></td><td>Sharpen up an image making it more vivid</td></tr>
+    <tr><td><code>jail [User/URL]</code></td><td>They broke the law. They pay the consequences.</td></tr>
+    <tr><td><code>rain [User/URL]</code></td><td>It's raining, very sad times indeed...</td></tr>
+    <tr><td><code>bright [User/URL]</code></td><td>Discord light theme flashbacks...oww my eyes!</td></tr>
+    <tr><td><code>dark [User/URL]</code></td><td>Turn the brightness down real low</td></tr>
+    <tr><td><code>invert [User/URL]</code></td><td>Invert the colors of an image</td></tr>
+    <tr><td><code>updown [User/URL]</code></td><td>Turn an image upside down, or 180 degrees</td></tr>
+    <tr><td><code>blur [User/URL]</code></td><td>Gaussian blur an image (basically blurring it)</td></tr>
+    <tr><td><code>pixel [User/URL]</code></td><td>Pixelate an image (like blurring but broader)</td></tr>
+    <tr><td><code>gray [User/URL]</code></td><td>Grayscale an image (I know, everyone's least favorite)</td></tr>
+  </table>
+</td>
+</tr></table>
 
 
 <h2 style="color: #fe4a00">Economy</h2>
 <p>Botbadi has a rather basic currency system, but many users find it addicting. Users can earn coins by completing tasks such as completing a typing challenge or solving a math problem and spend their earnings on cool items from the shop. This feature is still developing as more jobs and products are added.</p>
-<table><tr><td class="l-commands">
-<table>
-  <tr>
-    <th>Command</th>
-    <th>Description</th>
-  </tr>
-  <tr><td><code>bal [User]</code></td><td>Balance (do first if a new user)</td></tr>
-  <tr><td><code>inv [User]</code></td><td>Fetch someone's inventory</td></tr>
-  <tr><td><code>rich</code></td><td>Show richest users in the server</td></tr>
-  <tr><td><code>shop</code></td><td>Visit the shop to spend your coins</td></tr>
-  <tr><td><code>bake</code></td><td>Bake something for 1-5 coins</td></tr>
-  <tr><td><code>h.games</code></td><td>Any multiplayer for 10-20 coins</td></tr>
-  <tr><td><code>h.math</code></td><td>Any math game for 20-30 coins</td></tr>
-  <tr><td><code>type</code> or <code>work</code></td><td>20s typing game for 90-120 coins</td></tr>
-</table>
-</td><td style="width: 30%">
-<img class="img-shadow" src="https://i.imgur.com/UWqMFm9.png">
-<img class="img-shadow" src="https://i.imgur.com/uQvqkIp.png">
-</td></tr></table>
+<table><tr>
+<td class="l-commands">
+  <table>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+    <tr><td><code>bal [User]</code></td><td>Balance (do first if a new user)</td></tr>
+    <tr><td><code>inv [User]</code></td><td>Fetch someone's inventory</td></tr>
+    <tr><td><code>rich</code></td><td>Show richest users in the server</td></tr>
+    <tr><td><code>shop</code></td><td>Visit the shop to spend your coins</td></tr>
+    <tr><td><code>bake</code></td><td>Bake something for 1-5 coins</td></tr>
+    <tr><td><code>h.games</code></td><td>Any multiplayer for 10-20 coins</td></tr>
+    <tr><td><code>h.math</code></td><td>Any math game for 20-30 coins</td></tr>
+    <tr><td><code>type</code> or <code>work</code></td><td>20s typing game for 90-120 coins</td></tr>
+  </table>
+</td>
+<td style="width: 30%; vertical-align: middle">
+  <img class="img-shadow" src="https://i.imgur.com/NaMPrvx.png">
+  <img class="img-shadow" src="https://i.imgur.com/yJgOtSw.png">
+</td>
+</tr></table>
 
 
 <h2 style="color: #fe4a00">General</h2>
 <p>Here are some general commands for the bot. These are mostly fun commands which might be useful at times.</p>
-<table><tr><td class="l-commands">
-<table>
-  <tr>
-    <th>Command</th>
-    <th>Description</th>
-  </tr>
-  <tr><td><code>snipe [Channel]</code></td><td>Last deleted msg in the channel</td></tr>
-  <tr><td><code>editsnipe [Channel]</code></td><td>Last edited msg in the channel</td></tr>
-  <tr><td><code>hack [User]</code></td><td>Hack someone (definitely not real)</td></tr>
-  <tr><td><code>emojify {Text}</code></td><td>Turn text into thick, blue emojis</td></tr>
-  <tr><td><code>ascii {Text}</code></td><td>Transform it into ascii-looking text</td></tr>
-  <tr><td><code>embed {Text}</code></td><td>Generate an embed with the text</td></tr>
-  <tr><td><code>say {Text}</code></td><td>Instantly repeat your message</td></tr>
-  <tr><td><code>change {Text}</code></td><td>Change server-wide message</td></tr>
-  <tr><td><code>talk</code></td><td>Repeat saved server-wide message</td></tr>
-
-</table>
-</td><td style="width: 30%">
-<img class="img-shadow" src="https://i.imgur.com/MDYKojV.png">
-<img class="img-shadow" src="https://i.imgur.com/YaS07rL.png">
-<img class="img-shadow" src="https://i.imgur.com/1eMfnzz.png">
-</td></tr></table>
+<table><tr>
+<td style="width: 30%; vertical-align: middle">
+  <img class="img-shadow" src="https://i.imgur.com/MDYKojV.png">
+  <img class="img-shadow" src="https://i.imgur.com/YAC40I5.png">
+</td>
+<td class="l-commands">
+  <table>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+    <tr><td><code>snipe [Channel]</code></td><td>Last deleted msg in the channel</td></tr>
+    <tr><td><code>editsnipe [Channel]</code></td><td>Last edited msg in the channel</td></tr>
+    <tr><td><code>hack [User]</code></td><td>Hack someone (definitely not real)</td></tr>
+    <tr><td><code>emojify {Text}</code></td><td>Turn text into thick, blue emojis</td></tr>
+    <tr><td><code>ascii {Text}</code></td><td>Transform it into ascii-looking text</td></tr>
+    <tr><td><code>embed {Text}</code></td><td>Generate an embed with the text</td></tr>
+    <tr><td><code>say {Text}</code></td><td>Instantly repeat your message</td></tr>
+    <tr><td><code>change {Text}</code></td><td>Change server-wide message</td></tr>
+    <tr><td><code>talk</code></td><td>Repeat saved server-wide message</td></tr>
+  </table>
+</td>
+</tr></table>
 
 
 <h2 style="color: #fe4a00">Random</h2>
 <p>Next are the random commands. Random images, insults, predictions, you name it.</p>
-<table><tr><td class="l-commands">
-<table>
-  <tr>
-    <th>Command</th>
-    <th>Description</th>
-  </tr>
-  <tr><td><code>fact</code></td><td>Random interesting fact</td></tr>
-  <tr><td><code>8ball</code></td><td>Magic 8-Ball</td></tr>
-  <tr><td><code>flip</code> or <code>coin</code></td><td>Flip a two-sided coin</td></tr>
-  <tr><td><code>roll</code> or <code>dice</code></td><td>Roll a six-sided die</td></tr>
-  <tr><td><code>rand {Start} {End}</code></td><td>Random integer</td></tr>
-  <tr><td><code>meme</code></td><td>Random meme</td></tr>
-  <tr><td><code>pet</code></td><td>Random pet image</td></tr>
-  <tr><td><code>flame</code></td><td>Insult your mom</td></tr>
-  <tr><td><code>roast</code></td><td>Insult you</td></tr>
-  <tr><td><code>insult</code></td><td>Random insult</td></tr>
-</table>
-</td><td style="width: 30%">
-<img class="img-shadow" src="https://i.imgur.com/bS0hrMq.png">
-<img class="img-shadow" src="https://i.imgur.com/jQRHMk4.png">
-<img class="img-shadow" src="https://i.imgur.com/iL8fFSH.png">
-<img class="img-shadow" src="https://i.imgur.com/WU9Yjsj.png">
-</td></tr></table>
+<table><tr>
+<td class="l-commands">
+  <table>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+    <tr><td><code>fact</code></td><td>Random interesting fact</td></tr>
+    <tr><td><code>8ball</code></td><td>Magic 8-Ball</td></tr>
+    <tr><td><code>flip</code> or <code>coin</code></td><td>Flip a two-sided coin</td></tr>
+    <tr><td><code>roll</code> or <code>dice</code></td><td>Roll a six-sided die</td></tr>
+    <tr><td><code>rand {Start} {End}</code></td><td>Random integer</td></tr>
+    <tr><td><code>meme</code></td><td>Random meme</td></tr>
+    <tr><td><code>pet</code></td><td>Random pet image</td></tr>
+    <tr><td><code>flame</code></td><td>Insult your mom</td></tr>
+    <tr><td><code>roast</code></td><td>Insult you</td></tr>
+    <tr><td><code>insult</code></td><td>Random insult</td></tr>
+  </table>
+</td>
+<td style="width: 30%; vertical-align: middle">
+  <img class="img-shadow" src="https://i.imgur.com/hPBIAtE.png">
+  <img class="img-shadow" src="https://i.imgur.com/Scxqm5Z.png">
+</td>
+</tr></table>
 
 
 <h2 style="color: #fe4a00">Math</h2>
 <p>If you're super into math and just can't get enough of it every day, well you're in luck. Botbadi has various math speedrun games so you can race your friends (if you have any). The built-in calculator feature comes in very handy when you can't find your normal calculator. Botbadi can compute arithmetic, trigonometry, logarithms, and some other stuff. It's a pretty smart calculator. Including the calculator feature, the bot can generate a graph given ordered pairs. I don't see a use for picking up your graphing calculator again, unless you're graphing an equation.</p>
-<table><tr><td class="l-commands">
-<table>
-  <tr>
-    <th>Command</th>
-    <th>Description</th>
-  </tr>
-  <tr><td><code>calc {Problem}</code></td><td>Compute an artithmetic math problem.</td></tr>
-  <tr><td><code>graph {Ordered pairs}</code></td><td>Graph some points on the Cartesian plane</td></tr>
-  <tr><td><code>math</code></td><td>Random arithmetic game</td></tr>
-  <tr><td><code>add</code></td><td>Addition game</td></tr>
-  <tr><td><code>subt</code></td><td>Subtraction game</td></tr>
-  <tr><td><code>mult</code></td><td>Multiplication game</td></tr>
-  <tr><td><code>div</code></td><td>Division game</td></tr>
-  <tr><td><code>sqrt</code></td><td>Square root game</td></tr>
-</table>
-</td><td style="width: 30%">
-<img class="img-shadow" src="https://i.imgur.com/Gwbkj0y.png">
-</td></tr></table>
+<table><tr>
+<td style="width: 30%; vertical-align: middle">
+  <img class="img-shadow" src="https://i.imgur.com/YySuABe.png">
+  <img class="img-shadow" src="https://i.imgur.com/sHjH8a1.png">
+</td>
+<td class="l-commands">
+  <table>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+    <tr><td><code>calc {Problem}</code></td><td>Compute an artithmetic math problem.</td></tr>
+    <tr><td><code>graph {Ordered pairs}</code></td><td>Graph some points on the Cartesian plane</td></tr>
+    <tr><td><code>math</code></td><td>Random arithmetic game</td></tr>
+    <tr><td><code>add</code></td><td>Addition game</td></tr>
+    <tr><td><code>subt</code></td><td>Subtraction game</td></tr>
+    <tr><td><code>mult</code></td><td>Multiplication game</td></tr>
+    <tr><td><code>div</code></td><td>Division game</td></tr>
+    <tr><td><code>sqrt</code></td><td>Square root game</td></tr>
+  </table>
+</td>
+</tr></table>
 
 
 <h2 style="color: #fe4a00">And More</h2>
