@@ -1,3 +1,5 @@
+-paginate music queue
+
 -make imgs in bot desc centered
 
 -better db query

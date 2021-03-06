@@ -1,3 +1,8 @@
+3/5/2021
+v3.0.5:
+    -New music added to dev's playlist (%plugin)
+    -Removed some dev privileges in mod commands
+
 3/4/2021
 v3.0.4:
     -Fixed music error if bot lacks add reactions perm
