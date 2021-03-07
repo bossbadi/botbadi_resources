@@ -1,6 +1,4 @@
--paginate music queue
-
--make imgs in bot desc centered
+-update email on goop bro's bots
 
 -better db query
 

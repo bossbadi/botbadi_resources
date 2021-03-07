@@ -1,3 +1,10 @@
+3/6/2021
+v3.0.6:
+    -Fixed transparent image bug in '%edge'
+    -Modified a developer command (%lget [-e])
+    -Made '%purge' an alias to '%del' command
+    -Added pagination to music queue (%queue)
+
 3/5/2021
 v3.0.5:
     -New music added to dev's playlist (%plugin)
