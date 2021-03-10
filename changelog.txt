@@ -1,3 +1,9 @@
+3/10/2021
+v3.0.7:
+    -Added colored image generator (%color)
+    -Smarter digit recognition (%predict)
+    -Added 5 new image mod commands (%h.img)
+
 3/6/2021
 v3.0.6:
     -Fixed transparent image bug in '%edge'
