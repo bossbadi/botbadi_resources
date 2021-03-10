@@ -71,20 +71,20 @@ ImageBoss takes images and modifies them. Surprise your friends by adding filter
       <th>Command</th>
       <th>Description</th>
     </tr>
-    <tr><td><code>suck [User/URL]</code></td><td>Get sucked into a black hole at the center</td></tr>
-    <tr><td><code>swirl [User/URL]</code></td><td>Create a whirlpool effect by rotating the pixels</td></tr>
-    <tr><td><code>ripple [User/URL]</code></td><td>Create a ripple or wave effect with the image</td></tr>
-    <tr><td><code>carve [User/URL]</code></td><td>Carve the image on a gray surface</td></tr>
-    <tr><td><code>kuwahara [User/URL]</code></td><td>Add smoothing to reduce noise but preserve edges</td></tr>
-    <tr><td><code>spray [User/URL]</code></td><td>Give the image a spray-painted feel</td></tr>
-    <tr><td><code>edge [User/URL]</code></td><td>Detect edges on images with a simple convolution filter</td></tr>
-    <tr><td><code>burn [User/URL]</code></td><td>Burn the image like it just came out of the furnace</td></tr>
-    <tr><td><code>emboss [User/URL]</code></td><td>Generate a 3D print relief effect</td></tr>
-    <tr><td><code>sepia [User/URL]</code></td><td>Give the image a brownish tone just like the early days</td></tr>
+    <tr><td><code>suck [Image]</code></td><td>Get sucked into a black hole at the center</td></tr>
+    <tr><td><code>swirl [Image]</code></td><td>Create a whirlpool effect by rotating the pixels</td></tr>
+    <tr><td><code>ripple [Image]</code></td><td>Create a ripple or wave effect with the image</td></tr>
+    <tr><td><code>tiedie [Image]</code></td><td>Make your colorful image rainbow-looking and colorful</td></tr>
+    <tr><td><code>tilt [Image]</code></td><td>Diagonally tilt the image, giving it a 3D look</td></tr>
+    <tr><td><code>carve [Image]</code></td><td>Carve the image on a gray surface</td></tr>
+    <tr><td><code>kuwahara [Image]</code></td><td>Add smoothing to reduce noise but preserve edges</td></tr>
+    <tr><td><code>spray [Image]</code></td><td>Give the image a spray-painted feel</td></tr>
+    <tr><td><code>circle [Image]</code></td><td>Create a soft and blurry circle on the image</td></tr>
+    <tr><td><code>photo [Image]</code></td><td>Print the image on photographic paper</td></tr>
   </table>
 </td>
 <td style="width: 30%; vertical-align: middle">
-  <img class="img-shadow" src="https://i.imgur.com/FxMcLHG.png">
+  <img class="img-shadow" src="https://i.imgur.com/ALmuOu1.png">
 </td>
 </tr></table>
 
@@ -100,16 +100,16 @@ ImageBoss takes images and modifies them. Surprise your friends by adding filter
       <th>Description</th>
       <th>Command</th>
     </tr>
+    <tr><td>Detect edges on images with a simple convolution filter</td><td><code>edge [Image]</code></td></tr>
+    <tr><td>Burn the image like it just came out of the furnace</td><td><code>burn [Image]</code></td></tr>
+    <tr><td>Generate a 3D print relief effect</td><td><code>emboss [Image]</code></td></tr>
+    <tr><td>Add bits of color over the image</td><td><code>noise [Image]</code></td></tr>
+    <tr><td>Make it look like an artist sketched it</td><td><code>sketch [Image]</code></td></tr>
     <tr><td>Generate a PNG image with your text</td><td><code>png [Text]</code></td></tr>
-    <tr><td>Well someone is triggered (returns a GIF)</td><td><code>triggered [User/URL]</code></td></tr>
-    <tr><td>Sharpen up an image making it more vivid</td><td><code>sharp [User/URL]</code></td></tr>
-    <tr><td>Make it look like an artist sketched it</td><td><code>sketch [User/URL]</code></td></tr>
-    <tr><td>Add bits of color over the image</td><td><code>noise [User/URL]</code></td></tr>
-    <tr><td>They broke the law. They pay the consequences.</td><td><code>jail [User/URL]</code></td></tr>
-    <tr><td>It's raining, very sad times indeed...</td><td><code>rain [User/URL]</code></td></tr>
-    <tr><td>Discord light theme flashbacks...oww my eyes!</td><td><code>bright [User/URL]</code></td></tr>
-    <tr><td>Turn the brightness down real low</td><td><code>dark [User/URL]</code></td></tr>
-    <tr><td>Invert the colors of an image</td><td><code>invert [User/URL]</code></td></tr>
+    <tr><td>Generate an image with your color</td><td><code>color [Color/Hex]</code></td></tr>
+    <tr><td>Well someone is triggered (returns a GIF)</td><td><code>triggered [Image]</code></td></tr>
+    <tr><td>They broke the law. They pay the consequences.</td><td><code>jail [Image]</code></td></tr>
+    <tr><td>It's raining, very sad times indeed...</td><td><code>rain [Image]</code></td></tr>
   </table>
 </td>
 </tr></table>
@@ -123,20 +123,20 @@ ImageBoss takes images and modifies them. Surprise your friends by adding filter
       <th>Command</th>
       <th>Description</th>
     </tr>
-    <tr><td><code>updown [User/URL]</code></td><td>Turn an image upside down, or 180 degrees</td></tr>
-    <tr><td><code>blur [User/URL]</code></td><td>Gaussian blur an image (basically blurring it)</td></tr>
-    <tr><td><code>pixel [User/URL]</code></td><td>Pixelate an image (like blurring but broader)</td></tr>
-    <tr><td><code>gray [User/URL]</code></td><td>Grayscale an image (I know, everyone's least favorite)</td></tr>
-    <tr><td><code>avatar [User]</code></td><td>Get the avatar of a user</td></tr>
-    <tr><td><code>meme</code></td><td>Random meme</td></tr>
-    <tr><td><code>pet</code></td><td>Random pet</td></tr>
-    <tr><td><code>ping</code></td><td>Check bot latency</td></tr>
-    <tr><td><code>about</code></td><td>About this bot</td></tr>
-    <tr><td><code>fix</code></td><td>If the bot isn't responding (run it and it will work)</td></tr>
+    <tr><td><code>bright [Image]</code></td><td>Discord light theme flashbacks...oww my eyes!</td></tr>
+    <tr><td><code>dark [Image]</code></td><td>Turn the brightness down real low</td></tr>
+    <tr><td><code>updown [Image]</code></td><td>Turn an image upside down, or 180 degrees</td></tr>
+    <tr><td><code>blur [Image]</code></td><td>Gaussian blur an image (basically blurring it)</td></tr>
+    <tr><td><code>pixel [Image]</code></td><td>Pixelate an image (like blurring but broader)</td></tr>
+    <tr><td><code>sharp [Image]</code></td><td>Sharpen up an image making it more vivid</td></tr>
+    <tr><td><code>invert [Image]</code></td><td>Invert the colors (great for alt account avatars)</td></tr>
+    <tr><td><code>blueshift [Image]</code></td><td>Produce a gentle night with a moonlight effect</td></tr>
+    <tr><td><code>sepia [Image]</code></td><td>Give the image a brownish tone just like the early days</td></tr>
+    <tr><td><code>gray [Image]</code></td><td>Grayscale an image (I know, everyone's least favorite)</td></tr>
   </table>
 </td>
 <td style="width: 30%; vertical-align: middle">
-  <img class="img-shadow" src="https://i.imgur.com/vQqv6Pu.png">
+  <img class="img-shadow" src="https://i.imgur.com/nCgJfEf.png">
 </td>
 </tr></table>
 

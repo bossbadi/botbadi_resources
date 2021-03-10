@@ -161,44 +161,52 @@ td, th {
 
 
 <h2 style="color: #fe4a00">Images</h2>
-<p>Similar to other popular Discord bots, Botbadi can manipulate images in various ways. Surprise your friends by adding filters, mods, and special effects to their profile pictures.</p>
+<p>Similar to other popular Discord bots, Botbadi can manipulate images in various ways. Surprise your friends by adding filters, mods, and special effects to their profile pictures. The image argument can be a user mention, user ID, image URL, or file upload. Get your images modified any way you choose!</p>
 <table><tr>
 <td style="width: 30%; vertical-align: middle">
   <img class="img-shadow" src="https://i.imgur.com/8gJrVLi.png">
+  <img class="img-shadow" src="https://i.imgur.com/D7er9pH.png">
   <img class="img-shadow" src="https://i.imgur.com/iFmqilt.png">
   <img class="img-shadow" src="https://i.imgur.com/uFV7qzZ.png">
 </td>
 <td>
   <table>
     <tr>
-      <th>Command</th>
       <th>Description</th>
+      <th>Command</th>
     </tr>
-    <tr><td>Get sucked into a black hole at the center</td><td><code>suck [User/URL]</code></td></tr>
-    <tr><td>Create a whirlpool effect by rotating the pixels</td><td><code>swirl [User/URL]</code></td></tr>
-    <tr><td>Create a ripple or wave effect with the image</td><td><code>ripple [User/URL]</code></td></tr>
-    <tr><td>Carve the image on a gray surface</td><td><code>carve [User/URL]</code></td></tr>
-    <tr><td>Add smoothing to reduce noise but preserve edges</td><td><code>kuwahara [User/URL]</code></td></tr>
-    <tr><td>Give the image a spray-painted feel</td><td><code>spray [User/URL]</code></td></tr>
-    <tr><td>Detect edges on images with a simple convolution filter</td><td><code>edge [User/URL]</code></td></tr>
-    <tr><td>Burn the image like it just came out of the furnace</td><td><code>burn [User/URL]</code></td></tr>
-    <tr><td>Generate a 3D print relief effect</td><td><code>emboss [User/URL]</code></td></tr>
-    <tr><td>Give the image a brownish tone just like the early days</td><td><code>sepia [User/URL]</code></td></tr>
-    <tr><td>Add bits of color over the image</td><td><code>noise [User/URL]</code></td></tr>
-    <tr><td>Make it look like an artist sketched it</td><td><code>sketch [User/URL]</code></td></tr>
+    <tr><td>Get sucked into a black hole at the center</td><td><code>suck [Image]</code></td></tr>
+    <tr><td>Create a whirlpool effect by rotating the pixels</td><td><code>swirl [Image]</code></td></tr>
+    <tr><td>Create a ripple or wave effect with the image</td><td><code>ripple [Image]</code></td></tr>
+    <tr><td>Make your colorful image rainbow-looking and colorful</td><td><code>tiedie [Image]</code></td></tr>
+    <tr><td>Diagonally tilt the image, giving it a 3D look</td><td><code>tilt [Image]</code></td></tr>
+    <tr><td>Carve the image on a gray surface</td><td><code>carve [Image]</code></td></tr>
+    <tr><td>Add smoothing to reduce noise but preserve edges</td><td><code>kuwahara [Image]</code></td></tr>
+    <tr><td>Give the image a spray-painted feel</td><td><code>spray [Image]</code></td></tr>
+    <tr><td>Create a soft and blurry circle on the image</td><td><code>circle [Image]</code></td></tr>
+    <tr><td>Print the image on photographic paper</td><td><code>photo [Image]</code></td></tr>
 
+    <tr><td>Detect edges on images with a simple convolution filter</td><td><code>edge [Image]</code></td></tr>
+    <tr><td>Burn the image like it just came out of the furnace</td><td><code>burn [Image]</code></td></tr>
+    <tr><td>Generate a 3D print relief effect</td><td><code>emboss [Image]</code></td></tr>
+    <tr><td>Add bits of color over the image</td><td><code>noise [Image]</code></td></tr>
+    <tr><td>Make it look like an artist sketched it</td><td><code>sketch [Image]</code></td></tr>
     <tr><td>Generate a PNG image with your text</td><td><code>png [Text]</code></td></tr>
-    <tr><td>Well someone is triggered (returns a GIF)</td><td><code>triggered [User/URL]</code></td></tr>
-    <tr><td>Sharpen up an image making it more vivid</td><td><code>sharp [User/URL]</code></td></tr>
-    <tr><td>They broke the law. They pay the consequences.</td><td><code>jail [User/URL]</code></td></tr>
-    <tr><td>It's raining, very sad times indeed...</td><td><code>rain [User/URL]</code></td></tr>
-    <tr><td>Discord light theme flashbacks...oww my eyes!</td><td><code>bright [User/URL]</code></td></tr>
-    <tr><td>Turn the brightness down real low</td><td><code>dark [User/URL]</code></td></tr>
-    <tr><td>Invert the colors of an image</td><td><code>invert [User/URL]</code></td></tr>
-    <tr><td>Turn an image upside down, or 180 degrees</td><td><code>updown [User/URL]</code></td></tr>
-    <tr><td>Gaussian blur an image (basically blurring it)</td><td><code>blur [User/URL]</code></td></tr>
-    <tr><td>Pixelate an image (like blurring but broader)</td><td><code>pixel [User/URL]</code></td></tr>
-    <tr><td>Grayscale an image (I know, everyone's least favorite)</td><td><code>gray [User/URL]</code></td></tr>
+    <tr><td>Generate an image with your color</td><td><code>color [Color/Hex]</code></td></tr>
+    <tr><td>Well someone is triggered (returns a GIF)</td><td><code>triggered [Image]</code></td></tr>
+    <tr><td>They broke the law. They pay the consequences.</td><td><code>jail [Image]</code></td></tr>
+    <tr><td>It's raining, very sad times indeed...</td><td><code>rain [Image]</code></td></tr>
+
+    <tr><td>Discord light theme flashbacks...oww my eyes!</td><td><code>bright [Image]</code></td></tr>
+    <tr><td>Turn the brightness down real low</td><td><code>dark [Image]</code></td></tr>
+    <tr><td>Turn an image upside down, or 180 degrees</td><td><code>updown [Image]</code></td></tr>
+    <tr><td>Gaussian blur an image (basically blurring it)</td><td><code>blur [Image]</code></td></tr>
+    <tr><td>Pixelate an image (like blurring but broader)</td><td><code>pixel [Image]</code></td></tr>
+    <tr><td>Sharpen up an image making it more vivid</td><td><code>sharp [Image]</code></td></tr>
+    <tr><td>Invert the colors (great for alt account avatars)</td><td><code>invert [Image]</code></td></tr>
+    <tr><td>Produce a gentle night with a moonlight effect</td><td><code>blueshift [Image]</code></td></tr>
+    <tr><td>Give the image a brownish tone just like the early days</td><td><code>sepia [Image]</code></td></tr>
+    <tr><td>Grayscale an image (I know, everyone's least favorite)</td><td><code>gray [Image]</code></td></tr>
   </table>
 </td>
 </tr></table>
@@ -240,8 +248,8 @@ td, th {
 <td>
   <table>
     <tr>
-      <th>Command</th>
       <th>Description</th>
+      <th>Command</th>
     </tr>
     <tr><td>Last deleted msg in the channel</td><td><code>snipe [Channel]</code></td></tr>
     <tr><td>Last edited msg in the channel</td><td><code>editsnipe [Channel]</code></td></tr>
@@ -295,8 +303,8 @@ td, th {
 <td>
   <table>
     <tr>
-      <th>Command</th>
       <th>Description</th>
+      <th>Command</th>
     </tr>
     <tr><td>Compute an artithmetic math problem.</td><td><code>calc {Problem}</code></td></tr>
     <tr><td>Graph some points on the Cartesian plane</td><td><code>graph {Ordered pairs}</code></td></tr>
