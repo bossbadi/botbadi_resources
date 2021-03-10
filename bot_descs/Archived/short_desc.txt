@@ -1,5 +1,5 @@
 botbadi:
-Arithmetic calculator, profile picture image modification, Minecraft guessing game, typing races, smart auto mod, chatbot and so much more!
+Math calculator, profile picture image modification, Minecraft and celebrity guessing games, typing races, smart auto mod, chatbot and more!
 
 bossbeats:
 BossBeats is a smarter music bot that can has advanced search and play features. It supports YouTube, Spotify, stream URLs and file uploads!
