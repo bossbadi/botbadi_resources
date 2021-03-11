@@ -1,4 +1,8 @@
 3/10/2021
+v3.0.8:
+    -Even smarter digit predictions (using 2 models)
+    -Improved a developer command (%lget)
+    -Fixed vulnerabilities in many error messages
 v3.0.7:
     -Added colored image generator (%color)
     -Smarter digit recognition (%predict)

@@ -1,4 +1,8 @@
--update email on goop bro's bots
+-song lags when someone else plays music
+
+-better mc pics
+
+-lget auto
 
 -better db query
 
@@ -8,7 +12,7 @@
 
 -async file write
 
--kuwahara slow, resize image, convert image to jpg
+-kuwahara slow, resize image
 
 -play from yt playlist
 
