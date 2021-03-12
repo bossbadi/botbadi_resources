@@ -1,7 +1,5 @@
 -song lags when someone else plays music
 
--better mc pics
-
 -lget auto
 
 -better db query

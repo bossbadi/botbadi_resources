@@ -1,3 +1,10 @@
+3/11/2021
+v3.0.9:
+    -New and larger Minecraft images (%mc)
+    -Invalid-user showing up on economy cmds fixed
+    -Fixed silent error when deleting generated files
+    -Added new celebrity photos (%famous)
+
 3/10/2021
 v3.0.8:
     -Even smarter digit predictions (using 2 models)
