@@ -1,3 +1,9 @@
+3/12/2021
+v3.1.0:
+    -Fixed richest not showing on leaderboard
+    -'%predict' should now work on non-PNG image files
+    -Added two image mod commands (%floor and %cube)
+
 3/11/2021
 v3.0.9:
     -New and larger Minecraft images (%mc)

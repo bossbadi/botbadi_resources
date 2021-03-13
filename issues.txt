@@ -1,3 +1,5 @@
+-muted role auto set
+
 -song lags when someone else plays music
 
 -lget auto
