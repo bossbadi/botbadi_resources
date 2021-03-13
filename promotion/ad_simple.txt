@@ -3,7 +3,7 @@
 Botbadi is an all-around Discord bot developed by bossbadi using Python 3. It is jam-packed with numerous *stolen* features from popular bots including music commands, moderation, and a currency system. It has nearly 100 unique commands that can be used to liven up your servers.
 
 > :musical_note: Plays music
-> :factory_worker:  Effective moderation
+> :factory_worker: Effective moderation
 > :moneybag: Economy system
 
 > :nerd: A very advanced math calculator and grapher?
