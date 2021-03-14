@@ -1,6 +1,6 @@
 :robot: __**botbadi - A multipurpose Discord bot**__
 
-Botbadi is an all-around Discord bot developed by bossbadi using Python 3. It is jam-packed with numerous *stolen* features from popular bots including music commands, moderation, and a currency system. It has nearly 100 unique commands that can be used to liven up your servers.
+Botbadi is an all-around Discord bot developed by bossbadi using Python 3. It is jam-packed with numerous *stolen* features from popular bots including music commands, moderation, and a currency system. It has nearly 100 unique commands that can be used to liven up your servers. Oh and a plus: it's verified by the Discord developer team, so you know it's legit!
 
 > :musical_note: Plays music
 > :factory_worker: Effective moderation
@@ -14,5 +14,5 @@ Botbadi is an all-around Discord bot developed by bossbadi using Python 3. It is
 > :game_die: Greetings, farewells, insults, and other randomness
 > :thumbsup: Much more to come
 
-Invite botbadi here: (http://gopubby.com/botbadi)
+Invite botbadi here: https://dsc.gg/botbadi
 Join the support server: https://discord.gg/rzDqQqD
