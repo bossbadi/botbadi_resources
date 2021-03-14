@@ -1,3 +1,9 @@
+3/13/2021
+v3.1.1:
+    -Added optional '--roast' arg to mod cmds (%h.mod)
+    -Changed "Member" to "Offender" in user mod embed
+    -Possibility of apostrophe screwing up fixed
+
 3/12/2021
 v3.1.0:
     -Fixed richest not showing on leaderboard
