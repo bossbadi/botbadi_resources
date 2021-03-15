@@ -1,3 +1,9 @@
+3/14/2021
+v3.1.2:
+    -'%bal' and '%inv' should now be faster
+    -'%set' and '%uset' should now be faster
+    -Fixed '%rich' crashing if no one in server has account
+
 3/13/2021
 v3.1.1:
     -Added optional '--roast' arg to mod cmds (%h.mod)

@@ -1,10 +1,10 @@
+-fix deletion from db
+
 -muted role auto set
 
 -song lags when someone else plays music
 
 -lget auto
-
--better db query
 
 -https://obrazium.com/endpoints
 
